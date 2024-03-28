@@ -1,0 +1,1 @@
+import{H as o,n as r,J as i}from"./index-BKRUNdPG.js";function c(){const t=o(),s=r(),e=i();function n(u){e.setActived(u),s.settings.menu.switchMainMenuAndPageJump&&t.push(e.sidebarMenusFirstDeepestPath)}return{switchTo:n}}export{c as u};

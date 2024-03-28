@@ -1,0 +1,1 @@
+import{_ as c,r as s,o as r,f as _,w as e,a as f,b as i,d as t,e as l}from"./index-BKRUNdPG.js";const o={};function m(u,d){const a=s("RouterLink"),n=l;return r(),_(n,null,{default:e(()=>[f(a,{to:{name:"breadcrumbExampleDetail2"}},{default:e(()=>[i(" 查看详情页 ")]),_:1})]),_:1})}typeof t=="function"&&t(o);const x=c(o,[["render",m]]);export{x as default};

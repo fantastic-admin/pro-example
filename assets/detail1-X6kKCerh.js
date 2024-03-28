@@ -1,0 +1,1 @@
+import{_ as c,o as n,c as o,a as s,w as _,b as r,d as e,e as f}from"./index-BKRUNdPG.js";const t={};function l(i,d){const a=f;return n(),o("div",null,[s(a,null,{default:_(()=>[r(" 注意看面包屑导航的变化 ")]),_:1})])}typeof e=="function"&&e(t);const m=c(t,[["render",l]]);export{m as default};

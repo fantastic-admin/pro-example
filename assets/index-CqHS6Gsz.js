@@ -1,0 +1,1 @@
+import{_ as t,o as s,c,z as r}from"./index-BKRUNdPG.js";const o={},n={class:"flex items-center text-sm"};function a(e,d){return s(),c("div",n,[r(e.$slots,"default",{},void 0,!0)])}const f=t(o,[["render",a],["__scopeId","data-v-57b61e27"]]);export{f as default};

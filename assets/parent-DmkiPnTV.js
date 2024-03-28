@@ -1,0 +1,1 @@
+import{_ as n,o,f as a,d as e,aj as r}from"./index-BKRUNdPG.js";const c={};function s(_,f){const t=r;return o(),a(t,{title:"注意看父级导航的图标切换",content:"通过设置父级导航路由 meta 对象里的 icon 和 activeIcon 实现图标切换效果"})}typeof e=="function"&&e(c);const p=n(c,[["render",s]]);export{p as default};

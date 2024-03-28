@@ -1,0 +1,1 @@
+import{ai as c,h as e,p as u}from"./index-BKRUNdPG.js";const r=c("notification",()=>{const t=e(0),o=e(0),n=u(()=>t.value+o.value);function a(){i(),s()}function i(){t.value=9}function s(){o.value=0}return{message:t,todo:o,total:n,init:a}}),d=r;export{d as u};

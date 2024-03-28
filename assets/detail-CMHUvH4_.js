@@ -1,0 +1,1 @@
+import{g as r,H as c,r as u,o as _,f as l,w as t,a as f,b as p,u as i,e as m,d as o}from"./index-BKRUNdPG.js";const d=r({__name:"detail",setup(k){const n=c();return(x,e)=>{const a=u("ElButton"),s=m;return _(),l(s,null,{default:t(()=>[f(a,{onClick:e[0]||(e[0]=B=>i(n).go(-1))},{default:t(()=>[p(" 返回 ")]),_:1})]),_:1})}}});typeof o=="function"&&o(d);export{d as default};

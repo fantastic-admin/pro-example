@@ -1,0 +1,1 @@
+import{_ as c,o as n,c as o,a as s,w as _,b as r,d as e,e as f}from"./index-BKRUNdPG.js";const a={};function l(i,d){const t=f;return n(),o("div",null,[s(t,null,{default:_(()=>[r(" 多级导航2-2-1 ")]),_:1})])}typeof e=="function"&&e(a);const u=c(a,[["render",l]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as c,f as a,w as s,b as _,d as e,e as f}from"./index-BKRUNdPG.js";const n={};function r(i,d){const o=f;return c(),a(o,null,{default:s(()=>[_(" 你能看到这段文字，说明该页面已经在新窗口中打开了 ")]),_:1})}typeof e=="function"&&e(n);const p=t(n,[["render",r]]);export{p as default};
