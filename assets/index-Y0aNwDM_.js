@@ -1,0 +1,1 @@
+import{z as t,o as s,g as r,aj as c}from"./index-BQg0_OSs.js";const o={},a={class:"flex items-center text-sm"};function n(e,d){return s(),r("div",a,[c(e.$slots,"default",{},void 0,!0)])}const f=t(o,[["render",n],["__scopeId","data-v-57b61e27"]]);export{f as default};

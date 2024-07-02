@@ -1,0 +1,1 @@
+import{d as t,a as n,G as a,g as r,o as s,A as e}from"./index-BQg0_OSs.js";const c=t({__name:"reload",setup(u){const o=n();return a(()=>{o.go(-1)}),(p,_)=>(s(),r("div"))}});typeof e=="function"&&e(c);export{c as default};

@@ -1,0 +1,1 @@
+import{_ as n}from"./index.vue_vue_type_script_setup_true_lang-BC9HwH4U.js";import{z as c,o as a,Q as s,w as _,q as r,A as e}from"./index-BQg0_OSs.js";const o={};function f(i,l){const t=n;return a(),s(t,null,{default:_(()=>[r(" 你能看到这段文字，说明该页面已经在新窗口中打开了 ")]),_:1})}typeof e=="function"&&e(o);const d=c(o,[["render",f]]);export{d as default};
