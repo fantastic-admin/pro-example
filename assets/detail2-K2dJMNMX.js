@@ -1,0 +1,1 @@
+import{_ as a}from"./index.vue_vue_type_script_setup_true_lang-CebFI2de.js";import{i as c,o as n,l as s,f as r,w as _,g as f,A as e}from"./index-DgIgHwyh.js";const t={};function i(l,d){const o=a;return n(),s("div",null,[r(o,null,{default:_(()=>[f(" 注意看面包屑导航的变化 ")]),_:1})])}typeof e=="function"&&e(t);const u=c(t,[["render",i]]);export{u as default};

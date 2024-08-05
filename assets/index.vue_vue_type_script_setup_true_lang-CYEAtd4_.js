@@ -1,0 +1,1 @@
+import r from"./HDropdown-CjQvOWJE.js";import{d as _,o as a,c,w as o,f as n,_ as s}from"./index-DgIgHwyh.js";import p from"./panel-DbMF23iX.js";const x=_({name:"Favorites",__name:"index",setup(m){return(i,f)=>{const e=s,t=r;return a(),c(t,{class:"flex-center cursor-pointer px-2 py-1"},{dropdown:o(()=>[n(p)]),default:o(()=>[n(e,{name:"i-uiw:star-off"})]),_:1})}}});export{x as _};

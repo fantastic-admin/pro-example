@@ -1,0 +1,1 @@
+import{cP as t}from"./index-DgIgHwyh.js";const s={list:()=>t.get("menu/list",{baseURL:"/mock/"}),detail:e=>t.get("menu/detail",{params:{id:e},baseURL:"/mock/"}),create:e=>t.post("menu/create",e,{baseURL:"/mock/"}),edit:e=>t.post("menu/edit",e,{baseURL:"/mock/"}),delete:e=>t.post("menu/delete",{id:e},{baseURL:"/mock/"})};export{s as a};

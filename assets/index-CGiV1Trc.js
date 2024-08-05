@@ -1,0 +1,1 @@
+import{i as t,o as s,l as r,a0 as c}from"./index-DgIgHwyh.js";const o={},a={class:"flex items-center text-sm"};function n(e,d){return s(),r("div",a,[c(e.$slots,"default",{},void 0,!0)])}const l=t(o,[["render",n],["__scopeId","data-v-57b61e27"]]);export{l as default};
