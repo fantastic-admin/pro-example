@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as V}from"./index.vue_vue_type_script_setup_true_lang-Cm2W0b-z.js";import{d as w,ai as y,aj as x,r as z,J as D,a as m,o as u,k as N,c as g,w as o,f as l,g as a,Y as v,e as _,b as M,m as R}from"./index-DL7SpVKF.js";const $={class:"buttons"},J=w({__name:"index",props:y({mode:{},id:{}},{modelValue:{type:Boolean,default:!1},modelModifiers:{}}),emits:y(["success"],["update:modelValue"]),setup(f,{emit:C}){const n=f,B=C,t=x(f,"modelValue"),r=z(),p=D(()=>n.id===""?"新增部门":"编辑部门");function c(){r.value.submit().then(()=>{B("success"),d()})}function d(){t.value=!1}return(k,e)=>{const s=m("ElButton"),E=m("ElDialog"),b=m("ElDrawer");return u(),N("div",null,[n.mode==="dialog"?(u(),g(E,{key:0,modelValue:t.value,"onUpdate:modelValue":e[0]||(e[0]=i=>t.value=i),title:_(p),width:"600px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:o(()=>[l(s,{size:"large",onClick:d},{default:o(()=>e[2]||(e[2]=[a(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:c},{default:o(()=>e[3]||(e[3]=[a(" 确定 ")])),_:1})]),default:o(()=>[l(V,v({ref_key:"formRef",ref:r},k.$props),null,16)]),_:1},8,["modelValue","title"])):n.mode==="drawer"?(u(),g(b,{key:1,modelValue:t.value,"onUpdate:modelValue":e[1]||(e[1]=i=>t.value=i),title:_(p),size:"600px","close-on-click-modal":!1,"destroy-on-close":""},{default:o(()=>[l(V,v({ref_key:"formRef",ref:r},k.$props),null,16),M("div",$,[l(s,{size:"large",onClick:d},{default:o(()=>e[4]||(e[4]=[a(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:c},{default:o(()=>e[5]||(e[5]=[a(" 确定 ")])),_:1})])]),_:1},8,["modelValue","title"])):R("",!0)])}}});export{J as _};

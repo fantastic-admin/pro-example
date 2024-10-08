@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as y}from"./index-BkeU-aSA.js";import{_ as k}from"./index.vue_vue_type_script_setup_true_lang--ThJjcg9.js";import{_ as x}from"./index.vue_vue_type_script_setup_true_lang-DWmqi8aT.js";import{d as B,n as C,p as S,q as D,r as E,a as R,o as w,k as z,f as e,w as t,g as s,e as m,U as P,_ as T,y as u}from"./index-DL7SpVKF.js";import{D as $}from"./index-BooGJity.js";import{u as F}from"./useTabbar-iWQBBnUi.js";import"./index.vue_vue_type_script_setup_true_lang-D3i8ggiH.js";import"./index-C9inLGRl.js";const L=B({name:"PagesExampleDeliveryDetail",__name:"detail",setup(M){const r=C(),p=S(),f=F(),i=D(),l=E();function _(){l.value.submit().then(()=>{P.emit("get-data-list"),n()})}function c(){n()}function n(){i.settings.tabbar.enable&&i.settings.tabbar.mergeTabsBy!=="activeMenu"?f.close({name:"pagesExampleShopDeliveryList"}):p.push({name:"pagesExampleShopDeliveryList"})}return(N,o)=>{const d=T,a=R("ElButton"),g=x,b=k,v=y;return w(),z("div",null,[e(g,{title:m(r).name==="pagesExampleShopDeliveryCreate"?"新增运费模版":"编辑运费模版"},{default:t(()=>[e(a,{size:"default",round:"",onClick:n},{icon:t(()=>[e(d,{name:"i-ep:arrow-left"})]),default:t(()=>[o[0]||(o[0]=s(" 返回 "))]),_:1})]),_:1},8,["title"]),e(b,null,{default:t(()=>[e($,{id:m(r).params.id,ref_key:"formRef",ref:l},null,8,["id"])]),_:1}),e(v,null,{default:t(()=>[e(a,{type:"primary",size:"large",onClick:_},{default:t(()=>o[1]||(o[1]=[s(" 提交 ")])),_:1}),e(a,{size:"large",onClick:c},{default:t(()=>o[2]||(o[2]=[s(" 取消 ")])),_:1})]),_:1})])}}});typeof u=="function"&&u(L);export{L as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{cZ as l,d as I,r,B as h,E as f,a as d,ce as U,O as j,e as s,o as w,k as L,f as m,w as _}from"./index-DL7SpVKF.js";const u={list:e=>l.get("job/list",{params:e,baseURL:"/mock/"}),detail:e=>l.get("job/detail",{params:e,baseURL:"/mock/"}),create:e=>l.post("job/create",e,{baseURL:"/mock/"}),edit:e=>l.post("job/edit",e,{baseURL:"/mock/"}),delete:e=>l.post("job/delete",{id:e},{baseURL:"/mock/"})},V=I({__name:"index",props:{id:{default:""},departmentId:{default:""}},setup(e,{expose:b}){const c=e,n=r(!1),p=r(),t=r({id:c.id,department_id:c.departmentId,title:""}),v=r({title:[{required:!0,message:"请输入职位名称",trigger:"blur"}]});h(()=>{t.value.id!==""&&g()});function g(){n.value=!0,u.detail({department_id:t.value.department_id,id:t.value.id}).then(a=>{n.value=!1,t.value.title=a.data.title})}return b({submit(){return new Promise(a=>{var o;(o=p.value)==null||o.validate(i=>{i&&(t.value.id===""?u.create(t.value).then(()=>{f.success({message:"模拟新增成功",center:!0}),a()}):u.edit(t.value).then(()=>{f.success({message:"模拟编辑成功",center:!0}),a()}))})})}}),(a,o)=>{const i=d("ElInput"),k=d("ElFormItem"),E=d("ElForm"),R=U("loading");return j((w(),L("div",null,[m(E,{ref_key:"formRef",ref:p,model:s(t),rules:s(v),"label-width":"120px","label-suffix":"："},{default:_(()=>[m(k,{label:"职位",prop:"title"},{default:_(()=>[m(i,{modelValue:s(t).title,"onUpdate:modelValue":o[0]||(o[0]=x=>s(t).title=x),placeholder:"请输入职位名称"},null,8,["modelValue"])]),_:1})]),_:1},8,["model","rules"])])),[[R,s(n)]])}}});export{V as _,u as a};
