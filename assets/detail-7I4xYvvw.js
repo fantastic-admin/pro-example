@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as R}from"./index-BERqh5yJ.js";import{_ as v}from"./index.vue_vue_type_script_setup_true_lang-BI6i3Xj9.js";import{_ as w}from"./index.vue_vue_type_script_setup_true_lang-B4BTvh-f.js";import{d as y,v as S,x as z,p as D,a as T,b as l,o as $,l as N,g as e,w as t,h as m,f as i,V as P,_ as V,z as p}from"./index-D4ACN76T.js";import{_ as G}from"./index.vue_vue_type_script_setup_true_lang-DGGy4Y0i.js";import{u as L}from"./useTabbar-Bv3Yz9WK.js";const M=y({name:"PagesExampleDepartmentJobDetail",__name:"detail",setup(A){const o=S(),f=z(),c=L(),u=D(),_=T("formRef");function d(){var s;(s=_.value)==null||s.submit().then(()=>{P.emit("get-data-list"),a()})}function g(){a()}function a(){u.settings.tabbar.enable&&u.settings.tabbar.mergeTabsBy!=="activeMenu"?c.close({name:"pagesExampleGeneralDepartmentList"}):f.push({name:"pagesExampleGeneralDepartmentList"})}return(s,n)=>{const b=V,r=l("ElButton"),E=w,x=l("ElCol"),C=l("ElRow"),k=v,B=R;return $(),N("div",null,[e(E,{title:i(o).name==="routerName"?"新增职位":"编辑职位"},{default:t(()=>[e(r,{size:"default",round:"",onClick:a},{icon:t(()=>[e(b,{name:"i-ep:arrow-left"})]),default:t(()=>[n[0]||(n[0]=m(" 返回 "))]),_:1})]),_:1},8,["title"]),e(k,null,{default:t(()=>[e(C,null,{default:t(()=>[e(x,{md:24,lg:16},{default:t(()=>[e(G,{id:i(o).params.id,ref_key:"formRef",ref:_,"department-id":i(o).params.department_id},null,8,["id","department-id"])]),_:1})]),_:1})]),_:1}),e(B,null,{default:t(()=>[e(r,{type:"primary",size:"large",onClick:d},{default:t(()=>n[1]||(n[1]=[m(" 提交 ")])),_:1}),e(r,{size:"large",onClick:g},{default:t(()=>n[2]||(n[2]=[m(" 取消 ")])),_:1})]),_:1})])}}});typeof p=="function"&&p(M);export{M as default};

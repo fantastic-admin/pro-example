@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as u}from"./index.vue_vue_type_script_setup_true_lang-BI6i3Xj9.js";import{d as k,v as w,p as g,L as v,am as y,o as r,l as B,g as s,w as a,c as C,e as o,f as e,t as S,h as T,T as V,_ as $,G as b,y as h}from"./index-D4ACN76T.js";import{_ as I}from"./HTooltip.vue_vue_type_script_setup_true_lang-BY7WzcVS.js";import{u as L}from"./index-B5qMq6jW.js";const N={class:"absolute h-full w-full flex flex-col"},P={class:"flex flex-col items-center"},z={class:"line-clamp-3"},H=k({name:"LinkView",__name:"link",setup(M){const n=w(),i=g(),{copy:m,copied:_}=L();v(_,l=>{l&&y.success("复制成功",{zIndex:2e3})});function p(){window.open(n.meta.link,"_blank")}return(l,t)=>{const c=$,d=I,f=b,x=u;return r(),B("div",N,[s(V,{name:e(i).settings.mainPage.enableTransition?e(i).settings.mainPage.transitionMode:"",mode:"out-in",appear:""},{default:a(()=>[(r(),C(x,{key:e(n).meta.link,class:"flex flex-1 flex-col justify-center"},{default:a(()=>[o("div",P,[s(c,{name:"i-icon-park-twotone:planet",size:120,class:"text-ui-primary/80"}),t[2]||(t[2]=o("div",{class:"my-2 text-xl text-dark dark-text-white"}," 是否访问此链接 ",-1)),o("div",{class:"my-2 max-w-[300px] cursor-pointer text-center text-[14px] text-stone-5",onClick:t[0]||(t[0]=j=>e(n).meta.link&&e(m)(e(n).meta.link))},[s(d,{text:"复制链接"},{default:a(()=>[o("div",z,S(e(n).meta.link),1)]),_:1})]),s(f,{class:"my-4",onClick:p},{default:a(()=>[s(c,{name:"i-ri:external-link-fill"}),t[1]||(t[1]=T(" 立即访问 "))]),_:1})])]),_:1}))]),_:1},8,["name"])])}}}),q=h(H,[["__scopeId","data-v-02679ad2"]]);export{q as default};

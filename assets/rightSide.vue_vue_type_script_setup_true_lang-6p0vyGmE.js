@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as h}from"./HDropdownMenu.vue_vue_type_script_setup_true_lang-CYkqmE64.js";import{d as _,x as d,p as f,j as g,u as b,J as v,r as x,L as S,o as r,l as i,g as n,w as k,e as y,f as e,c as w,h as B,t as V,V as p,_ as I}from"./index-D4ACN76T.js";import{_ as N}from"./tools.vue_vue_type_script_setup_true_lang-Gn9xCFjK.js";const P={class:"flex items-center"},T={class:"flex-center gap-1"},$=["src","onerror"],z=_({name:"ToolbarRightSide",__name:"rightSide",setup(C){const l=d(),t=f(),a=g(),{t:s}=b(),{generateI18nTitle:u}=v(),o=x(!1);return S(()=>a.avatar,()=>{o.value&&(o.value=!1)}),(D,E)=>{const c=I,m=h;return r(),i("div",P,[n(N,{mode:"right-side"}),n(m,{items:[[{label:e(u)(e(t).settings.home.title),handle:()=>e(l).push({path:e(t).settings.home.fullPath}),hide:!e(t).settings.home.enable},{label:e(s)("app.profile"),handle:()=>e(l).push({name:"personalSetting"})},{label:e(s)("app.preferences"),handle:()=>e(p).emit("global-preferences-toggle"),hide:!e(t).settings.userPreferences.enable}],[{label:e(s)("app.hotkeys"),handle:()=>e(p).emit("global-hotkeys-intro-toggle"),hide:e(t).mode!=="pc"}],[{label:e(s)("app.logout"),handle:()=>e(a).logout(e(t).settings.home.fullPath)}]],class:"flex-center cursor-pointer px-2"},{default:k(()=>[y("div",T,[e(a).avatar&&!e(o)?(r(),i("img",{key:0,src:e(a).avatar,onerror:()=>o.value=!0,class:"h-[24px] w-[24px] rounded-full"},null,8,$)):(r(),w(c,{key:1,name:"i-carbon:user-avatar-filled-alt",size:24,class:"text-gray-400"})),B(" "+V(e(a).account)+" ",1),n(c,{name:"i-ep:caret-bottom"})])]),_:1},8,["items"])])}}});export{z as _};

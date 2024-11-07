@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{cZ as s,d as h,r as n,a as U,D as w,E as f,b as i,cg as I,P as L,f as o,o as F,l as V,g as u,w as p}from"./index-D4ACN76T.js";const m={list:e=>s.get("standard_module/list",{params:e,baseURL:"/mock/"}),detail:e=>s.get("standard_module/detail",{params:{id:e},baseURL:"/mock/"}),create:e=>s.post("standard_module/create",e,{baseURL:"/mock/"}),edit:e=>s.post("standard_module/edit",e,{baseURL:"/mock/"}),delete:e=>s.post("standard_module/delete",{id:e},{baseURL:"/mock/"})},D=h({__name:"index",props:{id:{default:""}},setup(e,{expose:_}){const v=e,r=n(!1),c=U("formRef"),t=n({id:v.id,title:""}),g=n({title:[{required:!0,message:"请输入标题",trigger:"blur"}]});w(()=>{t.value.id!==""&&b()});function b(){r.value=!0,m.detail(t.value.id).then(a=>{r.value=!1,t.value.title=a.data.title})}return _({submit(){return new Promise(a=>{var l;(l=c.value)==null||l.validate(d=>{d&&(t.value.id===""?m.create(t.value).then(()=>{f.success({message:"模拟新增成功",center:!0}),a()}):m.edit(t.value).then(()=>{f.success({message:"模拟编辑成功",center:!0}),a()}))})})}}),(a,l)=>{const d=i("ElInput"),R=i("ElFormItem"),E=i("ElForm"),k=I("loading");return L((F(),V("div",null,[u(E,{ref_key:"formRef",ref:c,model:o(t),rules:o(g),"label-width":"120px","label-suffix":"："},{default:p(()=>[u(R,{label:"标题",prop:"title"},{default:p(()=>[u(d,{modelValue:o(t).title,"onUpdate:modelValue":l[0]||(l[0]=x=>o(t).title=x),placeholder:"请输入标题"},null,8,["modelValue"])]),_:1})]),_:1},8,["model","rules"])])),[[k,o(r)]])}}});export{D as _,m as a};

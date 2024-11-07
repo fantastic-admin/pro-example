@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as p}from"./index.vue_vue_type_script_setup_true_lang-BI6i3Xj9.js";import{_}from"./index.vue_vue_type_script_setup_true_lang-B4BTvh-f.js";import{i as g}from"./logo-W9uVms6l.js";import{y as x,b as i,o as y,l as E,g as e,w as l,h as n,e as s,z as m}from"./index-D4ACN76T.js";const r={},w={style:{display:"flex","align-items":"center","justify-content":"space-between"}};function B(C,t){const d=_,o=p,f=i("ElButton"),a=i("ElCol"),u=i("ElRow");return y(),E("div",null,[e(d,{title:"内容块",content:"PageMain"}),e(o,null,{default:l(()=>t[0]||(t[0]=[n(" PageMain 是最常用的页面组件，几乎所有页面都会使用到 ")])),_:1}),e(o,{title:"你可以设置一个自定义的标题"},{default:l(()=>t[1]||(t[1]=[n(" 这里放页面内容 ")])),_:1}),e(o,null,{title:l(()=>[s("div",w,[t[3]||(t[3]=n(" 通过 slot 设置标题 ")),e(f,{size:"small"},{default:l(()=>t[2]||(t[2]=[n(" 还可以放置自定义按钮 ")])),_:1})])]),default:l(()=>[t[4]||(t[4]=n(" 这里放页面内容 "))]),_:1}),e(u,{gutter:20,style:{margin:"-10px 10px"}},{default:l(()=>[e(a,{md:8},{default:l(()=>[e(o,{style:{margin:"10px 0"}},{default:l(()=>t[5]||(t[5]=[n(" 还可以结合 ElRow 使用 ")])),_:1})]),_:1}),e(a,{md:8},{default:l(()=>[e(o,{style:{margin:"10px 0"}},{default:l(()=>t[6]||(t[6]=[n(" 这里放页面内容 ")])),_:1})]),_:1}),e(a,{md:8},{default:l(()=>[e(o,{style:{margin:"10px 0"}},{default:l(()=>t[7]||(t[7]=[n(" 这里放页面内容 ")])),_:1})]),_:1})]),_:1}),e(o,{title:"带展开功能",collaspe:"",height:"200px"},{default:l(()=>t[8]||(t[8]=[s("h1",null,"Fantastic-admin",-1),s("img",{src:g},null,-1),s("p",null,"这是一款开箱即用的中后台框架，同时它也经历过数十个真实项目的技术沉淀，确保框架在开发中可落地、可使用、可维护",-1)])),_:1})])}typeof m=="function"&&m(r);const M=x(r,[["render",B]]);export{M as default};
