@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as y}from"./index.vue_vue_type_script_setup_true_lang-eqVC0mVV.js";import{d as w,a3 as V,a4 as x,aT as R,y as b,l as u,c as D,o as f,z as g,A as M,e as v,g as o,f as l,m as C,j as n}from"./index-Bbf2k3Iz.js";const $=w({__name:"index",props:V({mode:{},id:{}},{modelValue:{type:Boolean,default:!1},modelModifiers:{}}),emits:V(["success"],["update:modelValue"]),setup(p,{emit:_}){const r=p,E=_,t=x(p,"modelValue"),m=R("formRef"),c=b(()=>r.id===""?"新增角色":"编辑角色");function k(){var a;(a=m.value)==null||a.submit().then(()=>{E("success"),d()})}function d(){t.value=!1}return(a,e)=>{const s=u("ElButton"),z=u("ElDialog"),B=u("ElDrawer");return f(),D("div",null,[r.mode==="dialog"?(f(),g(z,{key:0,modelValue:t.value,"onUpdate:modelValue":e[0]||(e[0]=i=>t.value=i),title:v(c),width:"1000px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:o(()=>[l(s,{size:"large",onClick:d},{default:o(()=>e[2]||(e[2]=[n(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:k},{default:o(()=>e[3]||(e[3]=[n(" 确定 ")])),_:1})]),default:o(()=>[l(y,C({ref_key:"formRef",ref:m},a.$props),null,16)]),_:1},8,["modelValue","title"])):r.mode==="drawer"?(f(),g(B,{key:1,modelValue:t.value,"onUpdate:modelValue":e[1]||(e[1]=i=>t.value=i),title:v(c),size:"1000px","close-on-click-modal":!1,"destroy-on-close":""},{footer:o(()=>[l(s,{size:"large",onClick:d},{default:o(()=>e[4]||(e[4]=[n(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:k},{default:o(()=>e[5]||(e[5]=[n(" 确定 ")])),_:1})]),default:o(()=>[l(y,C({ref_key:"formRef",ref:m},a.$props),null,16)]),_:1},8,["modelValue","title"])):M("",!0)])}}});export{$ as _};
