@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as b}from"./index.vue_vue_type_script_setup_true_lang-DXnSJe_z.js";import{d as x,be as g,l as a,K as c,f as p,g as m,Q as d,ac as f,i as C,ah as B,V as _,h as n,j as s,C as r,W as u}from"./index-BIIATpY8.js";import{_ as y}from"./index.vue_vue_type_script_setup_true_lang-DgGeXOC9.js";const v=x({name:"FaGradientButton",__name:"index",props:{colors:{default:()=>["#FF0000","#FFA500","#FFFF00","#008000","#0000FF","#4B0082","#EE82EE","#FF0000"]},duration:{default:2500},class:{},contentClass:{}},setup(i){g(o=>({"7ddfbfdc":a(l),cab0f2ec:a(t)}));const e=i,l=c(()=>e.colors.join(", ")),t=c(()=>`${e.duration}ms`);return(o,$)=>(m(),p("button",{class:d(a(f)("animate-rainbow relative flex items-center justify-center overflow-hidden rounded-lg p-[2px] before:absolute before:blur-4 before:content-empty before:-inset-[200%]",e.class))},[C("span",{class:d(a(f)("z-0 size-full inline-flex items-center justify-center rounded-lg bg-primary-foreground px-4 py-2",e.contentClass))},[B(o.$slots,"default",{},void 0,!0)],2)],2))}}),E=_(v,[["__scopeId","data-v-c0579e6d"]]),F={};function V(i,e){const l=y,t=E,o=b;return m(),p("div",null,[n(l,{title:"渐变按钮",description:"FaGradientButton"}),n(o,{"main-class":"flex items-start gap-4"},{default:s(()=>[n(t,null,{default:s(()=>e[0]||(e[0]=[r("Fantastic-admin 起飞! 🚀🚀🚀")])),_:1}),n(t,{duration:500},{default:s(()=>e[1]||(e[1]=[r(" 速度更快 ")])),_:1}),n(t,{colors:["#000","#fff"]},{default:s(()=>e[2]||(e[2]=[r(" 自定义颜色 ")])),_:1}),n(t,{class:"p-2"},{default:s(()=>e[3]||(e[3]=[r(" 加粗边框 ")])),_:1})]),_:1})])}typeof u=="function"&&u(F);const z=_(F,[["render",V]]);export{z as default};

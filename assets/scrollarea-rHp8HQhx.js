@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as b}from"./index.vue_vue_type_script_setup_true_lang-DXnSJe_z.js";import{d as g,r as _,f as n,g as c,h as l,j as d,i as e,n as u,l as t,aV as F,O as f,P as p,k as x,W as v}from"./index-BIIATpY8.js";import{_ as w}from"./index.vue_vue_type_script_setup_true_lang-8hekffdw.js";import{_ as h}from"./index.vue_vue_type_script_setup_true_lang-DgGeXOC9.js";const y={class:"flex-col-start gap-4"},S={class:"flex-col-start gap-4"},$={class:"flex-center-start gap-4"},B={class:"flex-center-start gap-4"},P={class:"flex-center-start"},A=g({__name:"scrollarea",setup(C){const o=_(!0),r=_(!1);return(N,a)=>{const k=h,i=w,m=F,V=b;return c(),n("div",null,[l(k,{title:"滚动区域",description:"FaScrollArea"}),l(V,null,{default:d(()=>[e("div",y,[e("div",S,[e("div",$,[a[2]||(a[2]=e("div",{class:"text-sm"}," 显示滚动条 ",-1)),l(i,{modelValue:t(o),"onUpdate:modelValue":a[0]||(a[0]=s=>u(o)?o.value=s:null)},null,8,["modelValue"])]),e("div",B,[a[3]||(a[3]=e("div",{class:"text-sm"}," 显示遮罩 ",-1)),l(i,{modelValue:t(r),"onUpdate:modelValue":a[1]||(a[1]=s=>u(r)?r.value=s:null)},null,8,["modelValue"])])]),l(m,{scrollbar:t(o),mask:t(r),class:"h-72 w-48 border rounded-md"},{default:d(()=>[(c(),n(f,null,p(20,s=>e("div",{key:s,class:"p-4 text-sm"},x(s),1)),64))]),_:1},8,["scrollbar","mask"]),l(m,{horizontal:"",scrollbar:t(o),mask:t(r),class:"w-96 border rounded-md"},{default:d(()=>[e("div",P,[(c(),n(f,null,p(20,s=>e("div",{key:s,class:"h-16 w-16 flex-center text-sm"},x(s),1)),64))])]),_:1},8,["scrollbar","mask"])])]),_:1})])}}});typeof v=="function"&&v(A);export{A as default};

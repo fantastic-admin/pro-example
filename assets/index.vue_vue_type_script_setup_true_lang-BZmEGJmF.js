@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as p}from"./index.vue_vue_type_script_setup_true_lang-BU8ei0np.js";import{d as i,r as f,L as m,g as c,j as e,h as s,D as l,N as u,n as d,l as v}from"./index-BIIATpY8.js";import $ from"./panel-BdRq2_sJ.js";const k=i({name:"Favorites",__name:"index",setup(x){const n=f(!1);return(F,o)=>{const t=u,_=l,r=p;return c(),m(r,{open:v(n),"onUpdate:open":o[1]||(o[1]=a=>d(n)?n.value=a:null),class:"p-0"},{panel:e(()=>[s($,{onOnChoose:o[0]||(o[0]=a=>n.value=!1)})]),default:e(()=>[s(_,{variant:"ghost",size:"icon"},{default:e(()=>[s(t,{name:"i-uiw:star-off",class:"size-4"})]),_:1})]),_:1},8,["open"])}}});export{k as _};

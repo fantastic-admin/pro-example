@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as u,K as m,af as h,L as b,g as p,j as i,h as r,l as e,ay as k,ah as f,y as g,ac as _,az as y,al as v,am as B,a9 as x,f as C,i as w}from"./index-BIIATpY8.js";import{C as V}from"./check-AiDfPjnP.js";const j=u({__name:"Checkbox",props:{defaultChecked:{type:Boolean},checked:{type:[Boolean,String]},disabled:{type:Boolean},required:{type:Boolean},name:{},value:{},id:{},asChild:{type:Boolean},as:{},class:{}},emits:["update:checked"],setup(l,{emit:a}){const s=l,o=a,t=m(()=>{const{class:c,...n}=s;return n}),d=h(t,o);return(c,n)=>(p(),b(e(y),g(e(d),{class:e(_)("peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground",s.class)}),{default:i(()=>[r(e(k),{class:"h-full w-full flex items-center justify-center text-current"},{default:i(()=>[f(c.$slots,"default",{},()=>[r(e(V),{class:"h-4 w-4"})])]),_:3})]),_:3},16,["class"]))}}),M={class:"flex-center-start gap-2"},S=["for"],P=u({name:"FaCheckbox",__name:"index",props:v({disabled:{type:Boolean}},{modelValue:{type:Boolean},modelModifiers:{}}),emits:["update:modelValue"],setup(l){const a=B(l,"modelValue"),s=x();return(o,t)=>(p(),C("div",M,[r(e(j),{id:e(s),checked:a.value,"onUpdate:checked":t[0]||(t[0]=d=>a.value=d),disabled:o.disabled},null,8,["id","checked","disabled"]),w("label",{for:e(s),class:"cursor-pointer text-sm"},[f(o.$slots,"default")],8,S)]))}});export{P as _};
