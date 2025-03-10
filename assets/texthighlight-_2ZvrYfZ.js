@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as f}from"./index.vue_vue_type_script_setup_true_lang-DAmkWWdh.js";import{W as u,f as g,g as x,h as n,j as e,i as r,C as o,ca as m,X as a}from"./index-C1X-Si6V.js";import{_ as p}from"./index.vue_vue_type_script_setup_true_lang-B6TBok1e.js";const d={},_={class:"text-balance text-4xl font-bold"},b={class:"text-balance text-4xl font-bold"},k={class:"text-balance text-4xl font-bold"},v={class:"text-4xl font-bold"};function F(y,t){const i=p,l=m,s=f;return x(),g("div",null,[n(i,{title:"文字高亮",description:"FaTextHightlight"}),n(s,null,{default:e(()=>[r("h1",_,[t[1]||(t[1]=o(" 李云龙：你")),n(l,{class:"from-indigo-300 to-purple-300 bg-gradient-to-r"},{default:e(()=>t[0]||(t[0]=[o(" 他娘的 ")])),_:1}),t[2]||(t[2]=o("还真是个天才！ "))])]),_:1}),n(s,null,{default:e(()=>[r("h1",b,[t[4]||(t[4]=o(" 圆角是")),n(l,{class:"rounded-lg from-purple-300 to-orange-300 bg-gradient-to-r"},{default:e(()=>t[3]||(t[3]=[o(" 最好 ")])),_:1}),t[5]||(t[5]=o("的。 "))])]),_:1}),n(s,null,{default:e(()=>[r("h1",k,[t[7]||(t[7]=o(" 使用系统主题色，你可以尝试")),n(l,{style:{"background-image":"linear-gradient(45deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%)"}},{default:e(()=>t[6]||(t[6]=[o(" 更改系统主题色 ")])),_:1}),t[8]||(t[8]=o("。 "))])]),_:1}),n(s,null,{default:e(()=>[r("h1",v,[t[10]||(t[10]=o(" 这段文字")),n(l,{class:"rounded-xl from-green-300 to-blue-300 bg-gradient-to-r","text-end-color":"hsl(var(--accent))"},{default:e(()=>t[9]||(t[9]=[o(" 会随着文本颜色变化 ")])),_:1}),t[11]||(t[11]=o("，不信你看。 "))])]),_:1})])}typeof a=="function"&&a(d);const T=u(d,[["render",F]]);export{T as default};

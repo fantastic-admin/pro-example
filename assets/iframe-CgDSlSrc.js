@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as x,H as b,J as v,bC as P,bu as T,aa as I,a2 as S,f as r,g as i,O as k,P as C,Q as L,l as a,h as d,w as p,T as R,j as V,i as m,v as h,N as z,ae as B,W as M}from"./index-C1X-Si6V.js";import{u as N}from"./useMainPage-DA-6-4F1.js";import"./useTabbar-BM0EH7sw.js";const y={class:"iframe-view absolute left-0 top-0 h-full w-full flex flex-col"},E=["data-path","src"],F={class:"absolute left-0 top-0 h-full w-full flex-center bg-popover/75"},j=x({name:"IframeView",__name:"iframe",setup(D){const o=b(),f=v(),n=P(),{setCustomTitle:_}=N(),{generateI18nTitle:g}=T(),c=I("iframeRef");return S(()=>o.fullPath,t=>{B(()=>{var l;(l=c.value)==null||l.forEach(s=>{var e;if(s.dataset.path===t){const u=(e=n.openedList.find(w=>w.path===t))==null?void 0:e.title;u&&_(g(u)),s.onload=()=>{n.closeLoading(t)}}})})},{immediate:!0}),(t,l)=>{const s=z;return i(),r("div",y,[(i(!0),r(k,null,C(a(n).openedList,e=>(i(),r("div",{key:e.path,class:L(["absolute left-0 top-0 h-full w-full flex flex-col",{"z-1":a(o).fullPath===e.path}])},[d(R,{name:a(f).settings.mainPage.enableTransition?a(f).settings.mainPage.transitionMode:"",mode:"out-in",appear:""},{default:V(()=>[p(m("iframe",{ref_for:!0,ref_key:"iframeRef",ref:c,"data-path":e.path,src:e.src,frameborder:"0",class:"h-full w-full flex-1"},null,8,E),[[h,a(o).fullPath===e.path]])]),_:2},1032,["name"]),p(m("div",F,[d(s,{name:"i-line-md:loading-twotone-loop",class:"size-10"})],512),[[h,e.isLoading]])],2))),128))])}}}),Q=M(j,[["__scopeId","data-v-6f98d9ae"]]);export{Q as default};

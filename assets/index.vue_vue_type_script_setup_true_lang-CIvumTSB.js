@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as E,ax as k,ay as _,K as y,cc as x,G as A,L as B,g as M,l as g,n as w}from"./index-C1X-Si6V.js";const P=E({name:"PcasCascader",__name:"index",props:k({disabled:{type:Boolean,default:!1},type:{default:"pca"},format:{default:"code"}},{modelValue:{default:[]},modelModifiers:{}}),emits:["update:modelValue"],setup(r){const t=r,m=_(r,"modelValue"),s=y(()=>{const e=[];return x.forEach(c=>{const o={code:c.code,name:c.name},n=[];c.children.forEach(a=>{const p={code:a.code,name:a.name};if(["pca","pcas"].includes(t.type)){const f=[];a.children.forEach(l=>{const h={code:l.code,name:l.name};if(t.type==="pcas"){const C=[];l.children.forEach(b=>{const V={code:b.code,name:b.name};C.push(V)}),h.children=C}f.push(h)}),p.children=f}n.push(p)}),o.children=n,e.push(o)}),e}),d=y({get:()=>i(m.value),set:e=>{m.value=e?u(e):[]}});function i(e,c=s.value){const o=[];if(e.length>0){const n=c.find(a=>t.format==="code"?a.code===e[0]:t.format==="name"?a.name===e[0]:a.name===e[0].name&&a.code===e[0].code);o.push(n.code),n.children&&o.push(...i(e.slice(1-e.length),n.children))}return o}function u(e,c=s.value){const o=[],n=c.find(a=>a.code===e[0]);if(n){switch(t.format){case"code":o.push(n.code);break;case"name":o.push(n.name);break;case"both":o.push({code:n.code,name:n.name})}const a=e.slice(1-e.length);a.length>0&&n.children&&o.push(...u(a,n.children))}return o}return(e,c)=>{const o=A("ElCascader");return M(),B(o,{modelValue:g(d),"onUpdate:modelValue":c[0]||(c[0]=n=>w(d)?d.value=n:null),options:g(s),props:{value:"code",label:"name"},disabled:e.disabled,clearable:"",filterable:""},null,8,["modelValue","options","disabled"])}}});export{P as _};
