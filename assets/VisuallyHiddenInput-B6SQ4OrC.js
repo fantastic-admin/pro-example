@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as p,aH as b,K as c,a2 as _,L as m,g as o,y as f,aP as h,f as E,P as $,O as B}from"./index-ChHFYeJP.js";const k=p({inheritAttrs:!1,__name:"VisuallyHiddenInputBubble",props:{name:{},value:{},checked:{type:Boolean,default:void 0},required:{type:Boolean},disabled:{type:Boolean},feature:{default:"fully-hidden"}},setup(u){const e=u,{primitiveElement:l,currentElement:t}=b(),n=c(()=>e.checked??e.value);return _(n,(a,r)=>{if(!t.value)return;const s=t.value,v=window.HTMLInputElement.prototype,i=Object.getOwnPropertyDescriptor(v,"value").set;if(i&&a!==r){const d=new Event("input",{bubbles:!0}),y=new Event("change",{bubbles:!0});i.call(s,a),s.dispatchEvent(d),s.dispatchEvent(y)}}),(a,r)=>(o(),m(h,f({ref_key:"primitiveElement",ref:l},{...e,...a.$attrs},{as:"input"}),null,16))}}),A=p({inheritAttrs:!1,__name:"VisuallyHiddenInput",props:{name:{},value:{},checked:{type:Boolean,default:void 0},required:{type:Boolean},disabled:{type:Boolean},feature:{default:"fully-hidden"}},setup(u){const e=u,l=c(()=>typeof e.value=="string"||typeof e.value=="number"||typeof e.value=="boolean"?[{name:e.name,value:e.value}]:typeof e.value=="object"&&Array.isArray(e.value)?e.value.flatMap((t,n)=>typeof t=="object"?Object.entries(t).map(([a,r])=>({name:`[${e.name}][${n}][${a}]`,value:r})):{name:`[${e.name}][${n}]`,value:t}):e.value!==null&&typeof e.value=="object"&&!Array.isArray(e.value)?Object.entries(e.value).map(([t,n])=>({name:`[${e.name}][${t}]`,value:n})):[]);return(t,n)=>(o(!0),E(B,null,$(l.value,a=>(o(),m(k,f({key:a.name,ref_for:!0},{...e,...t.$attrs},{name:a.name,value:a.value}),null,16,["name","value"]))),128))}});export{A as _};

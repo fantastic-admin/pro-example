@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as f}from"./index.vue_vue_type_script_setup_true_lang-DFlTa5Ps.js";import{d,J as u,f as _,g as m,h as e,j as a,i as t,c5 as p,l as r,X as c}from"./index-ChHFYeJP.js";import{_ as g}from"./index.vue_vue_type_script_setup_true_lang-uJp-mfbj.js";const b={class:"relative h-50 w-full flex flex-col items-center justify-center overflow-hidden bg-background p-2"},h={class:"relative h-50 w-full flex flex-col items-center justify-center overflow-hidden bg-background p-2"},x={class:"relative h-50 w-full flex flex-col items-center justify-center overflow-hidden bg-background p-2"},k=d({__name:"particlesbg",setup(v){const n=u();return(F,l)=>{const i=g,o=p,s=f;return m(),_("div",null,[e(i,{title:"粒子背景",description:"FaParticlesBg"}),e(s,null,{default:a(()=>[t("div",b,[e(o,{class:"absolute inset-0",color:r(n).currentColorScheme==="dark"?"#FFF":"#000"},null,8,["color"])])]),_:1}),e(s,{title:"颜色、数量、速度"},{default:a(()=>[t("div",h,[e(o,{class:"absolute inset-0",color:"#2563EB",quantity:1e3,ease:100,staticity:5})])]),_:1}),e(s,{title:"搭配文案"},{default:a(()=>[t("div",x,[l[0]||(l[0]=t("span",{class:"pointer-events-none whitespace-pre-wrap from-black to-gray-300/80 bg-gradient-to-b bg-clip-text text-center text-8xl text-transparent font-semibold leading-none dark:from-white dark:to-slate-900/10"}," Fantastic-admin 真好用 ! ",-1)),e(o,{class:"absolute inset-0",color:r(n).currentColorScheme==="dark"?"#FFF":"#000",quantity:100,ease:100,staticity:10},null,8,["color"])])]),_:1})])}}});typeof c=="function"&&c(k);export{k as default};

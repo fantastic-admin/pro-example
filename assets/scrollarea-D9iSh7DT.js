@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as V}from"./index.vue_vue_type_script_setup_true_lang-DFlTa5Ps.js";import{d as g,r as _,f as n,g as c,h as t,j as d,i as e,n as u,l,bB as F,O as f,P as p,k as x,X as v}from"./index-ChHFYeJP.js";import{_ as w}from"./index.vue_vue_type_script_setup_true_lang-DBj3mp3D.js";import{_ as h}from"./index.vue_vue_type_script_setup_true_lang-uJp-mfbj.js";import"./useFormControl-BdriawPe.js";import"./VisuallyHiddenInput-B6SQ4OrC.js";const y={class:"flex-col-start gap-4"},B={class:"flex-col-start gap-4"},S={class:"flex-center-start gap-4"},$={class:"flex-center-start gap-4"},P={class:"flex-center-start"},A=g({__name:"scrollarea",setup(C){const o=_(!0),r=_(!1);return(N,a)=>{const k=h,i=w,m=F,b=V;return c(),n("div",null,[t(k,{title:"滚动区域",description:"FaScrollArea"}),t(b,null,{default:d(()=>[e("div",y,[e("div",B,[e("div",S,[a[2]||(a[2]=e("div",{class:"text-sm"}," 显示滚动条 ",-1)),t(i,{modelValue:l(o),"onUpdate:modelValue":a[0]||(a[0]=s=>u(o)?o.value=s:null)},null,8,["modelValue"])]),e("div",$,[a[3]||(a[3]=e("div",{class:"text-sm"}," 显示遮罩 ",-1)),t(i,{modelValue:l(r),"onUpdate:modelValue":a[1]||(a[1]=s=>u(r)?r.value=s:null)},null,8,["modelValue"])])]),t(m,{scrollbar:l(o),mask:l(r),class:"h-72 w-48 border rounded-md"},{default:d(()=>[(c(),n(f,null,p(20,s=>e("div",{key:s,class:"p-4 text-sm"},x(s),1)),64))]),_:1},8,["scrollbar","mask"]),t(m,{horizontal:"",scrollbar:l(o),mask:l(r),class:"w-96 border rounded-md"},{default:d(()=>[e("div",P,[(c(),n(f,null,p(20,s=>e("div",{key:s,class:"h-16 w-16 flex-center text-sm"},x(s),1)),64))])]),_:1},8,["scrollbar","mask"])])]),_:1})])}}});typeof v=="function"&&v(A);export{A as default};

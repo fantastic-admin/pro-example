@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as h,aD as g,r as b,f as n,g as l,Q as o,l as a,ah as r,M as i,i as y,al as c,C as v,k as C,R as k,L as _,j as w,h as z,N as B,D as x}from"./index-ChHFYeJP.js";const V=h({name:"FaPageMain",__name:"index",props:{title:{default:""},collaspe:{type:Boolean,default:!1},height:{default:""},class:{},titleClass:{},mainClass:{}},setup(f){const s=f,p=g(),t=b(s.collaspe);function d(){t.value=!t.value}return(e,N)=>{const m=B,u=x;return l(),n("div",{class:o(a(r)("m-4 flex flex-col border rounded-lg bg-card transition-[background-color,border-color]",{"overflow-hidden":e.collaspe},s.class))},[p.title||e.title?(l(),n("div",{key:0,class:o(a(r)("border-b px-5 py-4 transition-border-color",s.titleClass))},[c(e.$slots,"title",{},()=>[v(C(e.title),1)])],2)):i("",!0),y("div",{class:o(a(r)("group/pagemain relative h-[calc-size(auto,size)] p-5 transition-height after:pointer-events-none after:absolute after:bottom-0 after:left-0 after:z-1 after:h-12 after:max-h-full after:w-full after:from-transparent after:to-[hsl(var(--card))] after:bg-gradient-to-b after:opacity-0 after:transition-opacity after:content-empty",{"overflow-hidden":e.collaspe,"after:opacity-100":a(t)},s.mainClass)),style:k({height:a(t)?e.height:""})},[c(e.$slots,"default"),e.collaspe?(l(),_(u,{key:0,variant:"link",size:"icon",class:o(["absolute inset-b-0 inset-s-1/2 opacity-0 transition-all -translate-x-1/2 group-hover/pagemain-opacity-100",{"rotate-x-180":!a(t)}]),onClick:d},{default:w(()=>[z(m,{name:"i-ep:arrow-down",class:"text-xl"})]),_:1},8,["class"])):i("",!0)],6)],2)}}});export{V as _};
