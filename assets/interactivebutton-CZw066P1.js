@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as u,f as c,g as l,R as _,l as f,ae as g,i as t,k as r,U as m,h as o,a9 as h,j as x,a8 as v,V as i}from"./index-Dpu-vvoM.js";const w={class:"flex items-center gap-2"},b={class:"inline-block whitespace-nowrap transition-all duration-300 group-hover:translate-x-12 group-hover:opacity-0"},k={class:"absolute top-0 z-10 size-full flex translate-x-12 items-center justify-center gap-2 text-primary-foreground opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:-translate-x-5"},y={class:"whitespace-nowrap"},B=u({name:"FaInteractiveButton",__name:"index",props:{text:{},class:{}},setup(n){const s=n;return(a,e)=>(l(),c("button",{class:_(f(g)("group relative w-auto cursor-pointer overflow-hidden rounded-full border bg-background p-2 px-6 text-center font-semibold",s.class))},[t("div",w,[e[0]||(e[0]=t("div",{class:"size-2 scale-100 rounded-lg bg-primary transition-all duration-300 group-hover:scale-[100.8]"},null,-1)),t("span",b,r(a.text),1)]),t("div",k,[t("span",y,r(a.text),1),e[1]||(e[1]=t("svg",{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":"2","stroke-linecap":"round","stroke-linejoin":"round",class:"lucide lucide-arrow-right"},[t("path",{d:"M5 12h14"}),t("path",{d:"m12 5 7 7-7 7"})],-1))])],2))}}),p={};function F(n,s){const a=h,e=B,d=v;return l(),c("div",null,[o(a,{title:"交互式按钮",description:"FaInteractiveButton"}),o(d,{"main-class":"flex gap-4"},{default:x(()=>[o(e,{text:"Fantastic-admin"}),o(e,{text:"Vue.js"})]),_:1})])}typeof i=="function"&&i(p);const z=m(p,[["render",F]]);export{z as default};
