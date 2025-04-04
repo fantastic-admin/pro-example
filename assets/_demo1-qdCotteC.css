@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+@keyframes to-top-bccb2d4e{0%{background-position:0 100%}to{background-position:0 0}}@keyframes to-bottom-bccb2d4e{0%{background-position:0 0}to{background-position:0 100%}}@keyframes to-right-bccb2d4e{0%{background-position:0 0}to{background-position:100% 0}}@keyframes to-left-bccb2d4e{0%{background-position:100% 0}to{background-position:0 0}}@keyframes to-top-right-bccb2d4e{0%{background-position:0 100%}to{background-position:100% 0}}@keyframes to-top-left-bccb2d4e{0%{background-position:100% 100%}to{background-position:0 0}}@keyframes to-bottom-right-bccb2d4e{0%{background-position:0 0}to{background-position:100% 100%}}@keyframes to-bottom-left-bccb2d4e{0%{background-position:100% 0}to{background-position:0 100%}}.move[data-v-bccb2d4e]{animation-duration:var(--a3afc654);animation-timing-function:linear;animation-iteration-count:infinite}.move-top[data-v-bccb2d4e]{animation-name:to-top-bccb2d4e}.move-bottom[data-v-bccb2d4e]{animation-name:to-bottom-bccb2d4e}.move-right[data-v-bccb2d4e]{animation-name:to-right-bccb2d4e}.move-left[data-v-bccb2d4e]{animation-name:to-left-bccb2d4e}.move-top-right[data-v-bccb2d4e]{animation-name:to-top-right-bccb2d4e}.move-top-left[data-v-bccb2d4e]{animation-name:to-top-left-bccb2d4e}.move-bottom-right[data-v-bccb2d4e]{animation-name:to-bottom-right-bccb2d4e}.move-bottom-left[data-v-bccb2d4e]{animation-name:to-bottom-left-bccb2d4e}

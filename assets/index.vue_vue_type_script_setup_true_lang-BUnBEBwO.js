@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{D as y}from"./index-C3hEvRrw.js";import{d as b,aA as V,aB as w,aa as x,K as z,G as u,f as R,g as f,L as g,M,l as v,j as o,h as l,y as C,C as n,i as N}from"./index-BFPO48W4.js";const T={class:"buttons"},j=b({__name:"index",props:V({mode:{},id:{}},{modelValue:{type:Boolean,default:!1},modelModifiers:{}}),emits:V(["success"],["update:modelValue"]),setup(p,{emit:B}){const r=p,E=B,t=w(p,"modelValue"),d=x("formRef"),c=z(()=>r.id===""?"新增运费模板":"编辑运费模板");function k(){var a;(a=d.value)==null||a.submit().then(()=>{E("success"),i()})}function i(){t.value=!1}return(a,e)=>{const s=u("ElButton"),_=u("ElDialog"),D=u("ElDrawer");return f(),R("div",null,[r.mode==="dialog"?(f(),g(_,{key:0,modelValue:t.value,"onUpdate:modelValue":e[0]||(e[0]=m=>t.value=m),title:v(c),width:"800px","close-on-click-modal":!1,"append-to-body":"","destroy-on-close":""},{footer:o(()=>[l(s,{size:"large",onClick:i},{default:o(()=>e[2]||(e[2]=[n(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:k},{default:o(()=>e[3]||(e[3]=[n(" 确定 ")])),_:1})]),default:o(()=>[l(y,C({ref_key:"formRef",ref:d},a.$props),null,16)]),_:1},8,["modelValue","title"])):r.mode==="drawer"?(f(),g(D,{key:1,modelValue:t.value,"onUpdate:modelValue":e[1]||(e[1]=m=>t.value=m),title:v(c),size:"800px","close-on-click-modal":!1,"destroy-on-close":""},{default:o(()=>[l(y,C({ref_key:"formRef",ref:d},a.$props),null,16),N("div",T,[l(s,{size:"large",onClick:i},{default:o(()=>e[4]||(e[4]=[n(" 取消 ")])),_:1}),l(s,{type:"primary",size:"large",onClick:k},{default:o(()=>e[5]||(e[5]=[n(" 确定 ")])),_:1})])]),_:1},8,["modelValue","title"])):M("",!0)])}}});export{j as _};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as c,aa as u,Y as p,f as s,g as l,S as g,ai as n,U as y,i as f}from"./index-BFPO48W4.js";const h=c({__name:"index",props:{hue:{default:210},saturation:{default:100},lightness:{default:50},size:{default:200},border:{default:2},radius:{default:10}},setup(a){const t=a,e=u("glowCardWrapper");function d({x:r,y:o}){e.value&&(e.value.style.setProperty("--glowy-card-x",r.toFixed(2)),e.value.style.setProperty("--glowy-card-xp",(r/window.innerWidth).toFixed(2)),e.value.style.setProperty("--glowy-card-y",o.toFixed(2)),e.value.style.setProperty("--glowy-card-yp",(o/window.innerHeight).toFixed(2)))}function i(){e.value&&(e.value.style.setProperty("--glowy-card-x","0"),e.value.style.setProperty("--glowy-card-y","0"))}return p(()=>{e.value&&(e.value.addEventListener("pointermove",d),e.value.addEventListener("pointerleave",i))}),(r,o)=>(l(),s("main",{ref_key:"glowCardWrapper",ref:e,style:g({"--glowy-card-backdrop":"hsl(0deg 0% 60% / 12%)","--glowy-card-backup-border":"var(--glowy-card-backdrop)","--glowy-card-hue":t.hue.toString(),"--glowy-card-saturation":t.saturation.toString(),"--glowy-card-lightness":t.lightness.toString(),"--glowy-card-size":t.size.toString(),"--glowy-card-border":t.border.toString(),"--glowy-card-radius":t.radius.toString()})},[n(r.$slots,"default")],4))}}),w={},_={class:"glow-card","data-glow":""};function v(a,t){return l(),s("section",_,[t[0]||(t[0]=f("div",{"data-glow":""},null,-1)),n(a.$slots,"default",{},void 0,!0)])}const x=y(w,[["render",v],["__scopeId","data-v-ecccbe00"]]);export{x as _,h as a};
