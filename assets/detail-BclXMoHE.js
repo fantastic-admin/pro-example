@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as B}from"./index.vue_vue_type_script_setup_true_lang-DcZrHlD5.js";import{d as v,H as y,I as F,J as $,aa as w,G as l,f as G,g as S,h as e,j as t,C as i,N as T,l as f,a8 as z,a7 as N,a5 as P,V as c}from"./index-DuOv7Qep.js";import{_ as V}from"./index.vue_vue_type_script_setup_true_lang-EJ5tz3rx.js";import{u as H}from"./useTabbar-Dmbe2YQw.js";import"./index-B0f7X4Gg.js";import"./menu-Cx6vbbz8.js";import"./role-DvtX1Dr2.js";const I=v({name:"PagesExampleRoleDetail",__name:"detail",setup(L){const r=y(),_=F(),p=H(),m=$(),u=w("formRef");function d(){var n;(n=u.value)==null||n.submit().then(()=>{P.emit("get-data-list"),o()})}function g(){o()}function o(){m.settings.tabbar.enable&&m.settings.tabbar.mergeTabsBy!=="activeMenu"?p.close({name:"pagesExampleGeneralRoleList"}):_.push({name:"pagesExampleGeneralRoleList"})}return(n,a)=>{const b=T,s=l("ElButton"),R=z,C=l("ElCol"),E=l("ElRow"),x=N,k=B;return S(),G("div",null,[e(R,{title:f(r).name==="pagesExampleGeneralRoleCreate"?"新增角色":"编辑角色"},{default:t(()=>[e(s,{size:"default",round:"",onClick:o},{icon:t(()=>[e(b,{name:"i-ep:arrow-left"})]),default:t(()=>[a[0]||(a[0]=i(" 返回 "))]),_:1})]),_:1},8,["title"]),e(x,null,{default:t(()=>[e(E,null,{default:t(()=>[e(C,{md:24,lg:16},{default:t(()=>[e(V,{id:f(r).params.id,ref_key:"formRef",ref:u},null,8,["id"])]),_:1})]),_:1})]),_:1}),e(k,null,{default:t(()=>[e(s,{type:"primary",size:"large",onClick:d},{default:t(()=>a[1]||(a[1]=[i(" 提交 ")])),_:1}),e(s,{size:"large",onClick:g},{default:t(()=>a[2]||(a[2]=[i(" 取消 ")])),_:1})]),_:1})])}}});typeof c=="function"&&c(I);export{I as default};
