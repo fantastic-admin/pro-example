@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as o}from"./_demo1.vue_vue_type_script_setup_true_lang-CBnF9cgK.js";import"./index-CTcJKWmq.js";import"./index-De8Oh0HC.js";import"./index.vue_vue_type_script_setup_true_lang-CLSJKZq3.js";import"./index.vue_vue_type_script_setup_true_lang-DDSAMHje.js";import"./index.vue_vue_type_script_setup_true_lang-DoQQTkEm.js";export{o as default};
