@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as s}from"./index.vue_vue_type_script_setup_true_lang-G8mBMKDY.js";import{d as r,e as o,f as c,g as a,a7 as l,i,k as d,U as e}from"./index-H6KsPIiT.js";import{_ as m}from"./_demo1.vue_vue_type_script_setup_true_lang-BiNZtex4.js";import"./index-9dZpJgz5.js";import"./index.vue_vue_type_script_setup_true_lang-qGUJV_kD.js";import"./useFormControl-ftM1MpMt.js";import"./VisuallyHiddenInput-D5ij0vZi.js";const p='<script setup lang="ts">\nconst scrollbar = ref(true)\nconst mask = ref(false)\n<\/script>\n\n<template>\n  <div class="flex-col-start gap-4">\n    <div class="flex-col-start gap-4">\n      <div class="flex-center-start gap-4">\n        <div class="text-sm">\n          显示滚动条\n        </div>\n        <FaSwitch v-model="scrollbar" />\n      </div>\n      <div class="flex-center-start gap-4">\n        <div class="text-sm">\n          显示遮罩\n        </div>\n        <FaSwitch v-model="mask" />\n      </div>\n    </div>\n    <FaScrollArea :scrollbar :mask class="h-72 w-48 border rounded-md">\n      <div v-for="tag in 20" :key="tag" class="p-4 text-sm">\n        {{ tag }}\n      </div>\n    </FaScrollArea>\n    <FaScrollArea horizontal :scrollbar :mask class="w-96 border rounded-md">\n      <div class="flex-center-start">\n        <div v-for="tag in 20" :key="tag" class="h-16 w-16 flex-center text-sm">\n          {{ tag }}\n        </div>\n      </div>\n    </FaScrollArea>\n  </div>\n</template>\n',f=r({__name:"index",setup(v){return(_,x)=>{const n=l,t=s;return c(),o("div",null,[a(n,{title:"滚动区域",description:"FaScrollArea"}),a(t,{code:d(p)},{default:i(()=>[a(m)]),_:1},8,["code"])])}}});typeof e=="function"&&e(f);export{f as default};
