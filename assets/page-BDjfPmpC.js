@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as A,K as E,$ as g,g as v,Y as $,a4 as b,c as B,o as C,k as o,aa as D,m as r,l as d,G as i,v as _,a as k,H as F,a9 as K,W as x}from"./index-BHkWVPDT.js";import{_ as w}from"./index.vue_vue_type_script_setup_true_lang-BbxZbEU-.js";import"./useFormControl-Ymg3O75T.js";import"./VisuallyHiddenInput-odLpzoOi.js";const P={class:"space-y-2"},R={class:"flex-center-start gap-2 text-sm"},S={class:"space-x-2"},y=A({name:"KeepAliveExamplePage",__name:"page",setup(H){const N=E(),p=g(),n=v(!1),u=v(1);function f(s){let e;switch(s){case 1:e="keepAliveExampleDetail";break;case 2:e="keepAliveExampleNestedDetail";break}N.push({name:e})}return $((s,e)=>{var l,m;const t=(m=(l=e.matched.at(-1))==null?void 0:l.components)==null?void 0:m.default.name;t&&(n.value&&["keepAliveExampleDetail","keepAliveExampleNestedDetail"].includes(s.name)?p.add(t):p.remove(t))}),(s,e)=>{const t=D,l=w,m=b("ElInputNumber"),c=F,V=K;return C(),B("div",null,[o(t,{title:"页面缓存",description:"除了可以在路由里配置页面是否需要缓存外，你也可以不使用框架提供的方法，而是在页面里自行实现。"}),o(V,null,{default:r(()=>[d("div",P,[d("div",R,[e[4]||(e[4]=i(" 关闭缓存 ",-1)),o(l,{modelValue:k(n),"onUpdate:modelValue":e[0]||(e[0]=a=>_(n)?n.value=a:null)},null,8,["modelValue"]),e[5]||(e[5]=i(" 开启缓存 ",-1))]),o(m,{modelValue:k(u),"onUpdate:modelValue":e[1]||(e[1]=a=>_(u)?u.value=a:null)},null,8,["modelValue"]),d("div",S,[o(c,{onClick:e[2]||(e[2]=a=>f(1))},{default:r(()=>[...e[6]||(e[6]=[i(" 进入同级路由页面 ",-1)])]),_:1}),o(c,{onClick:e[3]||(e[3]=a=>f(2))},{default:r(()=>[...e[7]||(e[7]=[i(" 进入下级路由页面 ",-1)])]),_:1})])])]),_:1})])}}});typeof x=="function"&&x(y);export{y as default};

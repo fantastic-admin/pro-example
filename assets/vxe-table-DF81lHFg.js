@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as g,L as v,a1 as b,cA as S,g as T,a4 as i,c as h,o as k,k as e,m as a,H as C,G as r,P as $,l as s,aa as w,a as P,a9 as B,W as m}from"./index-BHkWVPDT.js";import F from"./alert-DstItj3D.js";import{_ as M}from"./command.vue_vue_type_script_setup_true_lang-Ba0v0UaO.js";import"./index.vue_vue_type_script_setup_true_lang-CbN5brnO.js";const N={class:"space-y-2"},V=g({__name:"vxe-table",setup(y){const o=v();b(()=>o.currentColorScheme,()=>{S.setTheme(o.currentColorScheme)},{immediate:!0});const d=T([{id:10001,name:"Test1",role:"Develop",sex:"Man",age:28,address:"test abc"},{id:10002,name:"Test2",role:"Test",sex:"Women",age:22,address:"Guangzhou"},{id:10003,name:"Test3",role:"PM",sex:"Man",age:32,address:"Shanghai"},{id:10004,name:"Test4",role:"Designer",sex:"Women",age:24,address:"Shanghai"}]);function c(l){window.open(l,"_blank")}return(l,t)=>{const _=$,p=C,u=w,n=i("vxe-column"),x=i("vxe-table",!0),f=B;return k(),h("div",null,[e(F),e(u,{title:"vxe-table"},{description:a(()=>[s("div",N,[t[2]||(t[2]=s("p",null,"Element Plus 自带的 el-table 组件大部分时候只能满足简单需求的使用，如果对表格有更加复杂场景需求下的使用，推荐使用 vxe-table 。",-1)),s("p",null,[t[1]||(t[1]=r(" 安装命令： ",-1)),e(M,{text:"pnpm add xe-utils vxe-table"})])])]),default:a(()=>[e(p,{variant:"outline",onClick:t[0]||(t[0]=A=>c("https://github.com/x-extends/vxe-table"))},{default:a(()=>[e(_,{name:"i-ep:link"}),t[3]||(t[3]=r(" 访问 vxe-table ",-1))]),_:1})]),_:1}),e(f,null,{default:a(()=>[e(x,{data:P(d)},{default:a(()=>[e(n,{type:"seq",width:"60"}),e(n,{field:"name",title:"Name"}),e(n,{field:"sex",title:"Sex"}),e(n,{field:"age",title:"Age"})]),_:1},8,["data"])]),_:1})])}}});typeof m=="function"&&m(V);export{V as default};

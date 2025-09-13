@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as v}from"./index.vue_vue_type_script_setup_true_lang-BGCGFGBw.js";import{d as E,J as F,K as B,Z as P,a3 as $,ac as M,a4 as u,c as w,o as T,k as e,m as t,H as b,G as i,P as N,a as _,aa as V,a9 as y,l as H,a7 as z,W as c}from"./index-BHkWVPDT.js";import{_ as A}from"./index.vue_vue_type_script_setup_true_lang-B_FMWuT1.js";import{u as D}from"./useMainPage-C_bAmOpX.js";import"./index-DqcCng2e.js";import"./useTabbar-CX91VgOs.js";const G={class:"flex-center gap-4"},I=E({name:"PagesExampleFormModeDetail",__name:"detail",setup(J){const o=F(),f=B(),m=D();P(()=>{m.setCustomTitle(o.params.id?"编辑":"新增")}),$(()=>{m.resetCustomTitle()});const r=M("formRef");function d(){var s;(s=r.value)==null||s.submit().then(()=>{z.emit("get-data-list"),n()})}function n(){f.close({name:"standardModuleExampleList"})}return(s,a)=>{const p=N,l=b,C=V,g=u("ElCol"),k=u("ElRow"),x=y,R=v;return T(),w("div",null,[e(C,{title:_(o).params.id?"编辑":"新增"},{default:t(()=>[e(l,{variant:"outline",size:"sm",class:"rounded-full",onClick:n},{default:t(()=>[e(p,{name:"i-ep:arrow-left"}),a[0]||(a[0]=i(" 返回 ",-1))]),_:1})]),_:1},8,["title"]),e(x,null,{default:t(()=>[e(k,null,{default:t(()=>[e(g,{md:24,lg:16},{default:t(()=>[e(A,{id:_(o).params.id,ref_key:"formRef",ref:r},null,8,["id"])]),_:1})]),_:1})]),_:1}),e(R,null,{default:t(()=>[H("div",G,[e(l,{onClick:d},{default:t(()=>[...a[1]||(a[1]=[i(" 提交 ",-1)])]),_:1}),e(l,{variant:"outline",onClick:n},{default:t(()=>[...a[2]||(a[2]=[i(" 取消 ",-1)])]),_:1})])]),_:1})])}}});typeof c=="function"&&c(I);export{I as default};
