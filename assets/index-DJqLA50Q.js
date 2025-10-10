@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as l,ac as c,Z as p,c as s,o as d,U as y,r as n,l as g,V as w}from"./index-28uxndRW.js";const m=l({name:"FaGlowyCardWrapper",__name:"index",props:{hue:{default:210},saturation:{default:100},lightness:{default:50},size:{default:200},border:{default:2},radius:{default:10}},setup(o){const r=o,e=c("glowCardWrapper");function i({x:a,y:t}){e.value&&(e.value.style.setProperty("--glowy-card-x",a.toFixed(2)),e.value.style.setProperty("--glowy-card-xp",(a/window.innerWidth).toFixed(2)),e.value.style.setProperty("--glowy-card-y",t.toFixed(2)),e.value.style.setProperty("--glowy-card-yp",(t/window.innerHeight).toFixed(2)))}function u(){e.value&&(e.value.style.setProperty("--glowy-card-x","0"),e.value.style.setProperty("--glowy-card-y","0"))}return p(()=>{e.value&&(e.value.addEventListener("pointermove",i),e.value.addEventListener("pointerleave",u))}),(a,t)=>(d(),s("main",{ref_key:"glowCardWrapper",ref:e,style:y({"--glowy-card-backdrop":"hsl(0deg 0% 60% / 12%)","--glowy-card-backup-border":"var(--glowy-card-backdrop)","--glowy-card-hue":r.hue.toString(),"--glowy-card-saturation":r.saturation.toString(),"--glowy-card-lightness":r.lightness.toString(),"--glowy-card-size":r.size.toString(),"--glowy-card-border":r.border.toString(),"--glowy-card-radius":r.radius.toString()})},[n(a.$slots,"default")],4))}}),f={class:"glow-card","data-glow":""},_=l({name:"FaGlowyCard",__name:"index",setup(o){return(r,e)=>(d(),s("section",f,[e[0]||(e[0]=g("div",{"data-glow":""},null,-1)),n(r.$slots,"default",{},void 0,!0)]))}}),h=w(_,[["__scopeId","data-v-6f9bc245"]]);export{h as _,m as a};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import f from"./index-DK4BkF-9.js";import{_ as p}from"./index.vue_vue_type_script_setup_true_lang-CtiLgOZV.js";import{_ as d}from"./index.vue_vue_type_script_setup_true_lang-DvSXGb8o.js";import{_ as v}from"./index.vue_vue_type_script_setup_true_lang-ByjJkq0Y.js";import g from"./index-D3VS5oFR.js";import x from"./index-8GKkCSPx.js";import b from"./index-N0dbIZJe.js";import h from"./index-C_TE5GLn.js";import{p as y}from"./index-GW34aOAv.js";import{d as S,L as k,M as C,c as i,o as a,R as _,S as $,N as B,O as N,a as s,a6 as E}from"./index-28uxndRW.js";const V=S({name:"ToolbarTools",__name:"tools",props:{mode:{}},setup(m){const c=m,l=Object.assign({"./Breadcrumb/index.vue":f,"./ColorScheme/index.vue":p,"./Favorites/index.vue":d,"./Fullscreen/index.vue":v,"./I18n/index.vue":g,"./NavSearch/index.vue":x,"./Notification/index.vue":b,"./PageReload/index.vue":h}),o=k(),u=C(()=>{const r=o.settings.toolbar.layout.findIndex(e=>e==="->"),t=[];return c.mode==="left-side"?o.settings.toolbar.layout.forEach((e,n)=>{n<r&&e!=="->"&&t.push(e)}):o.settings.toolbar.layout.forEach((e,n)=>{n>r&&e!=="->"&&t.push(e)}),t});return(r,t)=>(a(!0),i(_,null,$(s(u),e=>(a(),i(_,{key:e},[s(o).settings.toolbar[e]?(a(),B(E(s(l)["./".concat(s(y)(e),"/index.vue")]),{key:0})):N("",!0)],64))),128))}});export{V as _};
