@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.border-beam[data-v-5237edac]{--border-beam-size: var(--v4bd2b839);--border-beam-duration: var(--v97ae65a4);--border-beam-anchor: var(--f8eb2626);--border-beam-border-width: var(--dfa3047c);--border-beam-color-from: var(--v0245dc75);--border-beam-color-to: var(--v59c68a06);--border-beam-delay: var(--v39050d8f)}.animate-border-beam[data-v-5237edac]:after{animation:border-beam-anim-5237edac var(--border-beam-duration) infinite linear}@keyframes border-beam-anim-5237edac{to{offset-distance:100%}}

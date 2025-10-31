@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+[data-v-d02f47ac] .tree{flex:1;overflow-y:auto}[data-v-d02f47ac] .tree .el-tree .el-tree-node__content{height:60px}[data-v-d02f47ac] .tree .el-tree .is-current>.el-tree-node__content{background-color:var(--el-color-primary-light-9)}[data-v-d02f47ac] .tree .el-tree .custom-tree-node{position:relative;display:flex;flex:1;flex-direction:column;justify-content:center;width:0;height:100%}[data-v-d02f47ac] .tree .el-tree .custom-tree-node .label{width:calc(100% - 10px);overflow:hidden;text-overflow:ellipsis;color:var(--el-text-color-primary);white-space:nowrap}[data-v-d02f47ac] .tree .el-tree .custom-tree-node .code{width:calc(100% - 10px);overflow:hidden;text-overflow:ellipsis;color:var(--el-text-color-placeholder);white-space:nowrap}[data-v-d02f47ac] .tree .el-tree .custom-tree-node:hover .actions{display:block}[data-v-d02f47ac] .tree .el-tree .custom-tree-node .actions{position:absolute;top:50%;right:10px;display:none;transform:translateY(-50%)}[data-v-d02f47ac] .tree .el-tree .custom-tree-node .actions .el-button{padding:5px 8px}
