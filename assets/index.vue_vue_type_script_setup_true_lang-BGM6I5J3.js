@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as i,aM as a,aN as u,c as n,o as l,n as m,r as f,O as g,l as p,k as b,P as v}from"./index-B13-Jify.js";const x={key:0,class:"absolute bottom-0 left-0 w-full translate-y-1/2 text-center"},k=i({name:"FaSearchBar",__name:"index",props:a({showToggle:{type:Boolean,default:!0},background:{type:Boolean,default:!1}},{fold:{type:Boolean,default:!0},foldModifiers:{}}),emits:a(["toggle"],["update:fold"]),setup(o,{emit:s}){const r=s,e=u(o,"fold");function t(){e.value=!e.value,r("toggle",e.value)}return(c,y)=>{const d=v;return l(),n("div",{class:m(["relative",{"py-4":o.showToggle,"px-4 bg-secondary transition":o.background}])},[f(c.$slots,"default",{fold:e.value,toggle:t}),o.showToggle?(l(),n("div",x,[p("button",{class:"h-5 inline-flex cursor-pointer select-none items-center border-size-0 rounded bg-secondary px-2 text-xs font-medium outline-none",onClick:t},[b(d,{name:e.value?"i-ep:caret-bottom":"i-ep:caret-top"},null,8,["name"])])])):g("",!0)],2)}}});export{k as _};
