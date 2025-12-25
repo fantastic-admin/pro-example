@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.animation .icon[data-v-0bbad2c9]{transform-origin:center top}.animation:hover .icon[data-v-0bbad2c9]{animation:animation-0bbad2c9 1s}@keyframes animation-0bbad2c9{20%{transform:rotate3d(0,0,1,15deg)}40%{transform:rotate3d(0,0,1,-10deg)}60%{transform:rotate3d(0,0,1,5deg)}80%{transform:rotate3d(0,0,1,-5deg)}to{transform:rotate3d(0,0,1,0)}}
