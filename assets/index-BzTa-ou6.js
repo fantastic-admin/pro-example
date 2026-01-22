@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as m}from"./index.vue_vue_type_script_setup_true_lang-BHyjy1V-.js";import{d as s,c,o as l,g as e,am as p,w as n,e as t,k as o}from"./index-H6QnEWHf.js";import r from"./_demo1-Df9H4YuH.js";import d from"./_demo2-Dxqe0iSB.js";import f from"./_demo3-C4v1nxJe.js";import _ from"./_demo4-BX44HjJO.js";import"./index-ok7mAVWN.js";import"./logo-A4CMGNjt.js";const g="<template>\n  <FaPageMain>\n    PageMain 是最常用的页面组件，几乎所有页面都会使用到\n  </FaPageMain>\n</template>\n",u='<template>\n  <FaPageMain title="你可以设置一个自定义的标题">\n    这里放页面内容\n  </FaPageMain>\n</template>\n',F='<template>\n  <FaPageMain>\n    <template #title>\n      <div class="flex-center-between">\n        通过 slot 设置标题\n        <FaButton variant="outline" size="sm">\n          还可以放置自定义按钮\n        </FaButton>\n      </div>\n    </template>\n    这里放页面内容\n  </FaPageMain>\n</template>\n',P='<template>\n  <FaPageMain title="带展开/收起功能" collaspe height="100px">\n    <div class="space-y-4">\n      <h1 class="text-4xl font-bold">\n        Fantastic-admin\n      </h1>\n      <img src="@/assets/images/logo.svg" class="w-20">\n      <p>用过的人都说好！！！</p>\n    </div>\n  </FaPageMain>\n</template>\n',M=s({__name:"index",setup(w){return(v,x)=>{const i=p,a=m;return l(),c("div",null,[e(i,{title:"内容块",description:"FaPageMain"}),e(a,{code:t(g)},{default:n(()=>[e(r)]),_:1},8,["code"]),e(a,{code:t(u)},{default:n(()=>[e(d)]),_:1},8,["code"]),e(a,{code:t(F)},{default:n(()=>[e(f)]),_:1},8,["code"]),e(a,{code:t(P)},{default:n(()=>[e(_)]),_:1},8,["code"])])}}});typeof o=="function"&&o(M);export{M as default};

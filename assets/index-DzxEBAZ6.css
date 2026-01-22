@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+.form[data-v-2cf30571]{position:relative;display:flex;flex:1;flex-direction:column;width:100%;overflow:auto}.form .top-side[data-v-2cf30571]{display:flex;flex:1;height:0}.form .top-side .el-form[data-v-2cf30571]{display:flex;flex:1}.form .top-side .form-left-side[data-v-2cf30571]{flex:1;padding:16px;overflow:auto}.form .top-side .form-left-side .label-tip[data-v-2cf30571]{display:inline-flex;margin-left:10px;color:var(--el-text-color-disabled)}.form .top-side .form-left-side[data-v-2cf30571] .el-scrollbar__view{overflow-x:hidden}.form .top-side .form-right-side[data-v-2cf30571]{border-left-width:1px;border-left-style:dashed;display:flex;flex-direction:column;width:500px;padding:16px}.form .top-side .form-right-side[data-v-2cf30571] .el-table{height:100%;margin-top:15px}.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row.ghost{opacity:0}.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row .index{display:inline-block}.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row .delete,.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row:hover .index{display:none}.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row:hover .delete{display:inline-block}.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row .el-tag.sortable,.form .top-side .form-right-side[data-v-2cf30571] .el-table .el-table__row .el-tag.sortable .icon{cursor:ns-resize}.form .bottom-side[data-v-2cf30571]{border-top-width:1px;border-top-style:dashed;display:flex;justify-content:center;padding:16px}

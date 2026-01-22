@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{_ as d,a as p}from"./index-DsBWV6bR.js";import{d as m,l as u,o,w as n,c as f,F as g,q as x,g as i,f as t,_ as h,t as a}from"./index-H6QnEWHf.js";const y={class:"flex flex-col gap-2 rounded p-6 lg:p-8"},k={class:"text-left"},b={class:"inline-flex border border-primary/10 rounded-xl p-3"},w={class:"text-2xl font-medium"},F={class:"text-sm font-normal leading-6 dark-text-gray-5"},V=m({__name:"_demo2",setup(v){const s=[{icon:"i-mdi:palette-outline",title:"风格百变",intro:"通过布局与主题组合搭配，可实现上百种不同风格的界面外观"},{icon:"i-streamline:page-setting",title:"组件丰富",intro:"提供 60+ 内建组件，不仅满足日常开发需求，更能让页面脱颖而出"},{icon:"i-tabler:layout-sidebar",title:"多功能导航栏",intro:"通过路由自动生成导航栏，轻松实现导航嵌套、图标、徽章、权限等特性"},{icon:"i-codicon:key",title:"全场景权限验证",intro:"内置鉴权组件、鉴权指令和鉴权函数，真正实现各种场景下的权限验证"},{icon:"i-octicon:cache-24",title:"页面缓存",intro:"支持无限层级路由的页面缓存，并提供简单易懂的缓存策略配置"},{icon:"i-icon-park-outline:international",title:"面向国际",intro:"内置通用国际化解决方案，简单配置即可实现多国语言切换"},{icon:"i-gg:website",title:"丰富的业务页面",intro:"从真实场景和需求中，沉淀出数十个常见业务页面，方便开发人员直接使用"},{icon:"i-ph:dev-to-logo",title:"注重开发体验",intro:"享受丝滑般的开发体验，让编码过程变得轻松愉快"}];return(B,C)=>{const l=h,c=d,r=p;return o(),u(r,{hue:120,class:"grid grid-cols-12 gap-4"},{default:n(()=>[(o(),f(g,null,x(s,(e,_)=>i(c,{key:_,class:"col-span-12 rounded-lg lg:col-span-3 sm:col-span-6"},{default:n(()=>[t("div",y,[t("div",k,[t("div",b,[i(l,{name:e.icon,class:"flex-center inline-flex text-3xl"},null,8,["name"])])]),t("h1",w,a(e.title),1),t("p",F,a(e.intro),1)])]),_:2},1024)),64))]),_:1})}}});export{V as _};

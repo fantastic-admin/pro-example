@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as a,c as u,o as p,g as n,m as f,w as s,i as e,L as r}from"./index-H6QnEWHf.js";const m={class:"flex gap-4"},C=a({__name:"_demo1",setup(g){function o(l){if(l)if(l==="loading1")r.promise(()=>new Promise(t=>{setTimeout(t,2e3)}),{loading:"加载中",success:()=>"加载成功",error:()=>"加载失败",position:"top-right",duration:3e3});else if(l==="loading2"){const t=r.loading("加载中",{position:"top-right",duration:1/0});setTimeout(()=>{r.dismiss(t),r("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})},2e3)}else r[l]("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3});else r("Fantastic-admin 杰出的管理系统框架",{description:"开箱即用，提供舒适开发体验",position:"top-right",duration:3e3})}return(l,t)=>{const i=f;return p(),u("div",m,[n(i,{onClick:t[0]||(t[0]=d=>o())},{default:s(()=>[...t[7]||(t[7]=[e(" 默认 ",-1)])]),_:1}),n(i,{onClick:t[1]||(t[1]=d=>o("success"))},{default:s(()=>[...t[8]||(t[8]=[e(" 成功 ",-1)])]),_:1}),n(i,{onClick:t[2]||(t[2]=d=>o("error"))},{default:s(()=>[...t[9]||(t[9]=[e(" 错误 ",-1)])]),_:1}),n(i,{onClick:t[3]||(t[3]=d=>o("info"))},{default:s(()=>[...t[10]||(t[10]=[e(" 信息 ",-1)])]),_:1}),n(i,{onClick:t[4]||(t[4]=d=>o("warning"))},{default:s(()=>[...t[11]||(t[11]=[e(" 警告 ",-1)])]),_:1}),n(i,{onClick:t[5]||(t[5]=d=>o("loading1"))},{default:s(()=>[...t[12]||(t[12]=[e(" 加载中 1 ",-1)])]),_:1}),n(i,{onClick:t[6]||(t[6]=d=>o("loading2"))},{default:s(()=>[...t[13]||(t[13]=[e(" 加载中 2 ",-1)])]),_:1})])}}});export{C as _};
