@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+    
+import{d as h,a as v,b9 as b,c,o as n,g as a,w as m,b as l,_ as k,e as t,F as p,f as z,l as S,t as u,i as C,z as V,p as y,m as B,n as F}from"./index-Bhq0NWKR.js";import{_ as N}from"./index.vue_vue_type_script_setup_true_lang-Ic2Vc1cH.js";import $ from"./search-BfNOC4Bl.js";import"./index.vue_vue_type_script_setup_true_lang-CPBYvkth.js";import"./useNonce-BzSSSiBl.js";import"./clamp-BstbYvQo.js";import"./index-CnaBH7ZN.js";import"./index-cerhVt-7.js";import"./item.vue_vue_type_script_setup_true_lang-BbBGq9Rk.js";const w={class:"text-sm text-muted-foreground/60 transition group-hover-text-muted-foreground"},I=h({name:"NavSearch",__name:"index",setup(i){const e=v(),{t:d}=b(),o=y(!1);return(K,s)=>{const f=k,x=N,g=B;return n(),c(p,null,[a(g,{variant:t(e).mode==="pc"?"outline":"ghost",size:t(e).mode==="pc"?void 0:"icon",class:V({"mx-2 px-3 h-9":t(e).mode==="pc","size-9":t(e).mode!=="pc"}),onClick:s[0]||(s[0]=r=>o.value=!0)},{default:m(()=>[a(f,{name:"i-ri:search-line",class:"size-4"}),t(e).mode==="pc"?(n(),c(p,{key:0},[z("span",w,u(t(d)("text")),1),t(e).settings.navSearch.enableHotkeys?(n(),S(x,{key:0,class:"-me-1"},{default:m(()=>[C(u(t(e).os==="mac"?"⌘":"Ctrl")+" K ",1)]),_:1})):l("",!0)],64)):l("",!0)]),_:1},8,["variant","size","class"]),a($,{modelValue:t(o),"onUpdate:modelValue":s[1]||(s[1]=r=>F(o)?o.value=r:null)},null,8,["modelValue"])],64)}}});function _(i){const e=i;e.__i18n=e.__i18n||[],e.__i18n.push({locale:"",resource:{"zh-cn":{text:{t:0,b:{t:2,i:[{t:3}],s:"搜索"}}},"zh-tw":{text:{t:0,b:{t:2,i:[{t:3}],s:"搜索"}}},en:{text:{t:0,b:{t:2,i:[{t:3}],s:"Search"}}}}})}typeof _=="function"&&_(I);export{I as default};
