@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Rt as i,Y as a,pt as o,w as s}from"./vue.runtime.esm-bundler-EJiOFDNb.js";import{Ct as c,N as l,P as u}from"./components-Dvnhr4Ep.js";import{n as d}from"./vue-i18n.runtime-pGyDsL5y.js";import{s as f}from"./vue-router-DJWCNE0K.js";var p=e({__name:`index`,setup(e){let{t:p}=d(),m=f();function h(e){m.push({name:`tabbarExampleMergeActiveMenuDetail`,params:{id:e}})}return(e,d)=>{let f=u,m=c,g=l;return a(),s(`div`,null,[r(f,{title:n(p)(`route.tabbar.merge`),description:n(p)(`description`)},null,8,[`title`,`description`]),r(g,{"main-class":`flex gap-2`},{default:o(()=>[r(m,{onClick:d[0]||(d[0]=e=>h(1))},{default:o(()=>[t(i(n(p)(`button1`)),1)]),_:1}),r(m,{onClick:d[1]||(d[1]=e=>h(2))},{default:o(()=>[t(i(n(p)(`button2`)),1)]),_:1})]),_:1})])}}});function m(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于「激活菜单」合并标签页`}},button1:{t:0,b:{t:2,i:[{t:3}],s:`打开详情页1`}},button2:{t:0,b:{t:2,i:[{t:3}],s:`打开详情页2`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`基於「激活菜單」合併標籤頁`}},button1:{t:0,b:{t:2,i:[{t:3}],s:`開啟詳情頁1`}},button2:{t:0,b:{t:2,i:[{t:3}],s:`開啟詳情頁2`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`Based on the "active menu" merge tabbar`}},button1:{t:0,b:{t:2,i:[{t:3}],s:`Open Detail Page 1`}},button2:{t:0,b:{t:2,i:[{t:3}],s:`Open Detail Page 2`}}}}})}typeof m==`function`&&m(p);var h=p;export{h as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Rt as i,Y as a,pt as o,w as s}from"./vue.runtime.esm-bundler-EJiOFDNb.js";import{N as c}from"./components-Dvnhr4Ep.js";import{n as l}from"./vue-i18n.runtime-pGyDsL5y.js";var u=e({__name:`page2`,setup(e){let{t:u}=l();return(e,l)=>{let d=c;return a(),s(`div`,null,[r(d,null,{default:o(()=>[t(i(n(u)(`route.multimenu.level2.level3.page2`)),1)]),_:1})])}}});export{u as default};

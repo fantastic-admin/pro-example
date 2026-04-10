@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+.action-card[data-v-73a60a43]{margin-bottom:20px}.action-card .content[data-v-73a60a43]{display:flex}.action-card .content .item[data-v-73a60a43]{margin-inline-end:15px}.action-card .content .item .name[data-v-73a60a43]{color:var(--el-text-color-primary);transition:var(--el-transition-color);margin-bottom:12px;font-size:16px;line-height:24px}.action-card .content .item .intro[data-v-73a60a43]{-webkit-line-clamp:3;line-clamp:3;height:66px;color:var(--el-text-color-secondary);transition:var(--el-transition-color);-webkit-box-orient:vertical;font-size:14px;line-height:22px;display:-webkit-box;overflow:hidden}.action-card .action-bar[data-v-73a60a43]{background-color:var(--el-fill-color-lighter);border-top:1px solid var(--el-border-color-light);transition:background-color .3s, var(--el-transition-border);justify-content:space-around;margin:20px -20px -20px;display:flex}.action-card .action-bar .el-button[data-v-73a60a43]{width:100%;color:var(--el-text-color-placeholder);transition:var(--el-transition-color);position:relative}.action-card .action-bar .el-button[data-v-73a60a43]:hover{color:var(--el-color-primary)}.action-card .action-bar .el-button+.el-button[data-v-73a60a43]{margin-left:0}.action-card .action-bar .el-button+.el-button[data-v-73a60a43]:before{content:"";background-color:var(--el-border-color-darker);width:1px;height:14px;margin-top:-7px;transition:background-color .3s;position:absolute;top:50%;left:0}

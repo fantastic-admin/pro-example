@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Y as i,pt as a,st as o,w as s}from"./vue.runtime.esm-bundler-EJiOFDNb.js";import{Ct as c,N as l,P as u,Q as d,ot as f}from"./components-Dvnhr4Ep.js";import{r as p}from"./auth-c8MfoAMr.js";import{o as m,s as h}from"./vue-router-DJWCNE0K.js";import{t as g}from"./DetailForm-Ca4Sd1s1.js";var _=e({name:`PagesExampleDeliveryDetail`,__name:`detail`,setup(e){let _=m(),v=h(),y=o(`formRef`);function b(){y.value?.submit().then(()=>{p.emit(`get-data-list`),x()})}function x(){v.back({name:`pagesExampleShopDeliveryList`})}return(e,o)=>{let p=d,m=c,h=u,v=f,S=l;return i(),s(`div`,null,[r(v,{position:`top`,class:`p-0`},{default:a(()=>[r(h,{title:n(_).name===`pagesExampleShopDeliveryCreate`?`新增运费模版`:`编辑运费模版`,class:`mb-0 border-b-none`},{default:a(()=>[r(m,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:x},{default:a(()=>[r(p,{name:`i-ep:arrow-left`}),o[0]||(o[0]=t(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),r(S,null,{default:a(()=>[r(g,{id:n(_).params.id,ref_key:`formRef`,ref:y},null,8,[`id`])]),_:1}),r(v,{position:`bottom`,class:`flex-center gap-4`},{default:a(()=>[r(m,{onClick:b},{default:a(()=>[...o[1]||(o[1]=[t(` 提交 `,-1)])]),_:1}),r(m,{variant:`outline`,onClick:x},{default:a(()=>[...o[2]||(o[2]=[t(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{_ as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Y as i,pt as a,w as o}from"./vue.runtime.esm-bundler-EJiOFDNb.js";import{Ct as s,N as c,P as l,wt as u}from"./components-Dvnhr4Ep.js";import{n as d}from"./vue-i18n.runtime-pGyDsL5y.js";import{t as f}from"./menuBadge-BY6IJPvV.js";var p=e({__name:`variant`,setup(e){let{t:p}=d(),m=f();function h(e){m.setVariant(e)}return(e,d)=>{let f=l,g=s,_=u,v=c;return i(),o(`div`,null,[r(f,{title:n(p)(`route.menuBadge.variant`),description:n(p)(`description`)},null,8,[`title`,`description`]),r(v,null,{default:a(()=>[r(_,null,{default:a(()=>[r(g,{variant:n(m).variant===`default`?`default`:`outline`,onClick:d[0]||(d[0]=e=>h(`default`))},{default:a(()=>[...d[3]||(d[3]=[t(` default `,-1)])]),_:1},8,[`variant`]),r(g,{variant:n(m).variant===`secondary`?`default`:`outline`,onClick:d[1]||(d[1]=e=>h(`secondary`))},{default:a(()=>[...d[4]||(d[4]=[t(` secondary `,-1)])]),_:1},8,[`variant`]),r(g,{variant:n(m).variant===`destructive`?`default`:`outline`,onClick:d[2]||(d[2]=e=>h(`destructive`))},{default:a(()=>[...d[5]||(d[5]=[t(` destructive `,-1)])]),_:1},8,[`variant`])]),_:1})]),_:1})])}}});function m(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 实现动态设置`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 實現動態設置`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`Dynamic setting based on Pinia`}}}}})}typeof m==`function`&&m(p);var h=p;export{h as default};
