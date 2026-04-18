@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,C as t,D as n,Nt as r,O as i,Rt as a,Y as o,Z as s,h as c,pt as l,w as u,wt as d,x as f}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{D as p,Et as m,Tt as h,et as g}from"./components-CNfuk_zw.js";var _={class:`flex flex-col gap-4`},v={key:0,class:`text-success flex flex-col gap-1 items-center`},y={key:1,class:`text-muted-foreground flex flex-col gap-1 items-center`},b={key:2,class:`text-destructive flex flex-col gap-1 items-center`},x=e({__name:`_demo6`,setup(e){let x=d(`loading`),S=d(`https://fantastic-admin.hurui.me`),C=[{label:`加载中`,value:`loading`},{label:`已扫描`,value:`success`},{label:`已过期`,value:`expired`},{label:`错误`,value:`error`}];function w(e){x.value=e}return(e,d)=>{let T=h,E=m,D=g,O=p;return o(),u(`div`,_,[i(E,null,{default:l(()=>[(o(),u(c,null,s(C,e=>i(T,{key:e.value,variant:r(x)===e.value?`default`:`outline`,onClick:t=>w(e.value)},{default:l(()=>[n(a(e.label),1)]),_:2},1032,[`variant`,`onClick`])),64))]),_:1}),i(O,{value:r(S),size:200,status:r(x)},{statusRender:l(({status:e})=>[e===`success`?(o(),u(`div`,v,[i(D,{name:`i-mdi:check-circle`,class:`size-6`}),d[0]||(d[0]=f(`span`,{class:`text-xs`},`已扫描`,-1))])):e===`expired`?(o(),u(`div`,y,[i(D,{name:`i-mdi:clock-alert`,class:`size-6`}),d[1]||(d[1]=f(`span`,{class:`text-xs`},`二维码已过期`,-1))])):e===`error`?(o(),u(`div`,b,[i(D,{name:`i-mdi:alert-circle`,class:`size-6`}),d[2]||(d[2]=f(`span`,{class:`text-xs`},`加载失败`,-1))])):t(``,!0)]),_:1},8,[`value`,`status`])])}}});export{x as t};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+.form[data-v-e41f2431]{flex-direction:column;flex:1;width:100%;display:flex;position:relative;overflow:auto}.form .top-side[data-v-e41f2431]{flex:1;height:0;display:flex}.form .top-side .el-form[data-v-e41f2431]{flex:1;display:flex}.form .top-side .form-left-side[data-v-e41f2431]{flex:1;padding:16px;overflow:auto}.form .top-side .form-left-side .label-tip[data-v-e41f2431]{color:var(--el-text-color-disabled);margin-left:10px;display:inline-flex}.form .top-side .form-left-side[data-v-e41f2431] .el-scrollbar__view{overflow-x:hidden}.form .top-side .form-right-side[data-v-e41f2431]{--un-border-style:dashed;border-left-style:dashed;border-left-width:1px;flex-direction:column;width:500px;padding:16px;display:flex}.form .top-side .form-right-side[data-v-e41f2431] .el-table{height:100%;margin-top:15px}.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row.ghost{opacity:0}.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row .index{display:inline-block}.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row .delete,.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row:hover .index{display:none}.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row:hover .delete{display:inline-block}.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row .el-tag.sortable,.form .top-side .form-right-side[data-v-e41f2431] .el-table .el-table__row .el-tag.sortable .icon{cursor:ns-resize}

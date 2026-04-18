@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Y as i,pt as a,st as o,w as s,x as c}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{F as l,P as u,Tt as d,ct as f,et as p}from"./components-CNfuk_zw.js";import{r as m}from"./auth-kZwluqcW.js";import{o as h,s as g}from"./vue-router-BQUwJa8X.js";import{t as _}from"./DetailForm-7EUXIGq5.js";var v={class:`max-w-4xl w-full`},y=e({name:`PagesExampleDepartmentJobDetail`,__name:`detail`,setup(e){let y=h(),b=g(),x=o(`formRef`);function S(){x.value?.submit().then(()=>{m.emit(`get-data-list`),C()})}function C(){b.back({name:`pagesExampleGeneralDepartmentList`})}return(e,o)=>{let m=p,h=d,g=l,b=f,w=u;return i(),s(`div`,null,[r(b,{position:`top`,class:`p-0`},{default:a(()=>[r(g,{title:n(y).name===`pagesExampleGeneralJobCreate`?`新增职位`:`编辑职位`,class:`mb-0 border-b-none`},{default:a(()=>[r(h,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:C},{default:a(()=>[r(m,{name:`i-ep:arrow-left`}),o[0]||(o[0]=t(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),r(w,null,{default:a(()=>[c(`div`,v,[r(_,{id:n(y).params.id,ref_key:`formRef`,ref:x,"department-id":n(y).params.department_id},null,8,[`id`,`department-id`])])]),_:1}),r(b,{position:`bottom`,class:`flex-center gap-4`},{default:a(()=>[r(h,{onClick:S},{default:a(()=>[...o[1]||(o[1]=[t(` 提交 `,-1)])]),_:1}),r(h,{variant:`outline`,onClick:C},{default:a(()=>[...o[2]||(o[2]=[t(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{y as default};
