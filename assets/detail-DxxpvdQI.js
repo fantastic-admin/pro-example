@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{$ as e,A as t,D as n,K as r,Nt as i,O as a,Y as o,pt as s,q as c,st as l,w as u}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{F as d,P as f,Tt as p,ct as m,et as h}from"./components-C_d7Trg8.js";import{r as g}from"./auth-DED7SAC_.js";import{o as _,s as v}from"./vue-router-BQUwJa8X.js";import{t as y}from"./page-Mh7y1beG.js";import{t as b}from"./DetailForm-BoUJDBHc.js";var x=t({name:`PagesExampleFormModeDetail`,__name:`detail`,setup(t){let x=_(),S=v(),C=y();r(()=>{C.setCustomTitle(x.params.id?`编辑`:`新增`)}),c(()=>{C.resetCustomTitle()});let w=l(`formRef`);function T(){w.value?.submit().then(()=>{g.emit(`get-data-list`),E()})}function E(){S.back({name:`standardModuleExampleList`})}return(t,r)=>{let c=h,l=p,g=d,_=m,v=e(`ElCol`),y=e(`ElRow`),S=f;return o(),u(`div`,null,[a(_,{position:`top`,class:`p-0`},{default:s(()=>[a(g,{title:i(x).params.id?`编辑标准模块`:`新增标准模块`,class:`mb-0 border-b-none`},{default:s(()=>[a(l,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:E},{default:s(()=>[a(c,{name:`i-ep:arrow-left`}),r[0]||(r[0]=n(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),a(S,null,{default:s(()=>[a(y,null,{default:s(()=>[a(v,{md:24,lg:16},{default:s(()=>[a(b,{id:i(x).params.id,ref_key:`formRef`,ref:w},null,8,[`id`])]),_:1})]),_:1})]),_:1}),a(_,{position:`bottom`,class:`flex-center gap-4`},{default:s(()=>[a(l,{onClick:T},{default:s(()=>[...r[1]||(r[1]=[n(` 提交 `,-1)])]),_:1}),a(l,{variant:`outline`,onClick:E},{default:s(()=>[...r[2]||(r[2]=[n(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{x as default};

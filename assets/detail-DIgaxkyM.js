@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{$ as e,A as t,D as n,Nt as r,O as i,Y as a,pt as o,st as s,w as c}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{F as l,P as u,Tt as d,ct as f,et as p}from"./components-C_d7Trg8.js";import{r as m}from"./auth-DED7SAC_.js";import{o as h,s as g}from"./vue-router-BQUwJa8X.js";import{t as _}from"./DetailForm-D1NwWFu3.js";var v=t({name:`PagesExampleManagerDetail`,__name:`detail`,setup(t){let v=h(),y=g(),b=s(`formRef`);function x(){b.value?.submit().then(()=>{m.emit(`get-data-list`),S()})}function S(){y.back({name:`pagesExampleGeneralManagerList`})}return(t,s)=>{let m=p,h=d,g=l,y=f,C=e(`ElCol`),w=e(`ElRow`),T=u;return a(),c(`div`,null,[i(y,{position:`top`,class:`p-0`},{default:o(()=>[i(g,{title:r(v).name===`routerName`?`新增管理员`:`编辑管理员`,class:`mb-0 border-b-none`},{default:o(()=>[i(h,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:S},{default:o(()=>[i(m,{name:`i-ep:arrow-left`}),s[0]||(s[0]=n(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),i(T,null,{default:o(()=>[i(w,null,{default:o(()=>[i(C,{md:24,lg:16},{default:o(()=>[i(_,{id:r(v).params.id,ref_key:`formRef`,ref:b},null,8,[`id`])]),_:1})]),_:1})]),_:1}),i(y,{position:`bottom`,class:`flex-center gap-4`},{default:o(()=>[i(h,{onClick:x},{default:o(()=>[...s[1]||(s[1]=[n(` 提交 `,-1)])]),_:1}),i(h,{variant:`outline`,onClick:S},{default:o(()=>[...s[2]||(s[2]=[n(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{v as default};

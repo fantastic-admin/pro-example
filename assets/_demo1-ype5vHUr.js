@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,C as t,Nt as n,O as r,Rt as i,Y as a,Z as o,b as s,h as c,w as l,wt as u,x as d,yt as f}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{B as p}from"./components-C_d7Trg8.js";var m={class:`space-y-4`},h={class:`p-4 border rounded-lg border-dashed bg-muted/20 space-y-3`},g={class:`space-y-1`},_={class:`text-sm min-h-6`},v={class:`space-y-2`},y={class:`flex flex-wrap gap-2`},b={key:0,class:`text-sm text-muted-foreground`},x=e({__name:`_demo1`,setup(e){let x=u(``),S=u([]),C=[{value:`linyue`,label:`林岳`},{value:`olivia`,label:`Olivia Chen`},{value:`jayden`,label:`Jayden Wu`},{value:`cici`,label:`Cici Xu`},{value:`mika`,label:`Mika Tan`,disabled:!0}],w=s(()=>C.filter(e=>S.value.includes(e.value)));return(e,s)=>{let u=p;return a(),l(`div`,m,[r(u,{modelValue:n(x),"onUpdate:modelValue":s[0]||(s[0]=e=>f(x)?x.value=e:null),value:n(S),"onUpdate:value":s[1]||(s[1]=e=>f(S)?S.value=e:null),label:`项目讨论`,placeholder:`输入 @ 选择协作者，例如 @lin`,items:C},null,8,[`modelValue`,`value`]),d(`div`,h,[d(`div`,g,[s[2]||(s[2]=d(`div`,{class:`text-xs text-muted-foreground tracking-wide uppercase`},` 当前输入 `,-1)),d(`div`,_,i(n(x)||`暂无内容`),1)]),d(`div`,v,[s[3]||(s[3]=d(`div`,{class:`text-xs text-muted-foreground tracking-wide uppercase`},` 命中的提及值 `,-1)),d(`div`,y,[(a(!0),l(c,null,o(n(w),e=>(a(),l(`span`,{key:e.value,class:`text-xs text-secondary-foreground px-2 py-0.5 rounded-full bg-secondary inline-flex items-center`},i(e.label)+` · `+i(e.value),1))),128)),n(w).length===0?(a(),l(`span`,b,` 还没有选择任何成员 `)):t(``,!0)])])])])}}});export{x as t};

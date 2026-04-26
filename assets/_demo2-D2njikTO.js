@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{D as e,S as t,Y as n,pt as r}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{P as i}from"./components-C_d7Trg8.js";import{t as a}from"./_plugin-vue_export-helper-DAAOZMkq.js";var o={};function s(a,o){let s=i;return n(),t(s,{title:`你可以设置一个自定义的标题`},{default:r(()=>[...o[0]||(o[0]=[e(` 这里放页面内容 `,-1)])]),_:1})}var c=a(o,[[`render`,s]]);export{c as t};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,D as t,Nt as n,O as r,Rt as i,Y as a,pt as o,w as s}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{F as c,P as l,Tt as u}from"./components-C_d7Trg8.js";import{n as d}from"./vue-i18n.runtime-BkMmoySD.js";import{t as f}from"./page-Mh7y1beG.js";var p=e({__name:`title`,setup(e){let{t:p}=d(),m=f();function h(){m.setCustomTitle(p(`setTitle`))}function g(){m.resetCustomTitle()}return(e,d)=>{let f=c,m=u,_=l;return a(),s(`div`,null,[r(f,{title:n(p)(`route.feature.title`)},null,8,[`title`]),r(_,{"main-class":`space-x-2`},{default:o(()=>[r(m,{onClick:h},{default:o(()=>[t(i(n(p)(`set`,[n(p)(`setTitle`)])),1)]),_:1}),r(m,{onClick:g},{default:o(()=>[t(i(n(p)(`reset`)),1)]),_:1})]),_:1})])}}});function m(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{set:{t:0,b:{t:2,i:[{t:3,v:`标题设置为「 `},{t:5,i:0},{t:3,v:` 」`}]}},reset:{t:0,b:{t:2,i:[{t:3}],s:`标题重置`}},setTitle:{t:0,b:{t:2,i:[{t:3}],s:`测试标题`}}},"zh-tw":{set:{t:0,b:{t:2,i:[{t:3,v:`標題設置為「 `},{t:5,i:0},{t:3,v:` 」`}]}},reset:{t:0,b:{t:2,i:[{t:3}],s:`標題重置`}},setTitle:{t:0,b:{t:2,i:[{t:3}],s:`測試標題`}}},en:{set:{t:0,b:{t:2,i:[{t:3,v:`Set title to「 `},{t:5,i:0},{t:3,v:` 」`}]}},reset:{t:0,b:{t:2,i:[{t:3}],s:`Reset title`}},setTitle:{t:0,b:{t:2,i:[{t:3}],s:`Test title`}}}}})}typeof m==`function`&&m(p);var h=p;export{h as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{A as e,Nt as t,O as n,Y as r,w as i,wt as a,x as o}from"./vue.runtime.esm-bundler-31VjfBU5.js";import{D as s}from"./components-C_d7Trg8.js";var c={class:`flex flex-wrap gap-6`},l={class:`flex flex-col gap-2 items-center`},u={class:`flex flex-col gap-2 items-center`},d={class:`flex flex-col gap-2 items-center`},f={class:`flex flex-col gap-2 items-center`},p={class:`flex flex-col gap-2 items-center`},m=e({__name:`_demo5`,setup(e){let m=a(`https://fantastic-admin.hurui.me`);return(e,a)=>{let h=s;return r(),i(`div`,c,[o(`div`,l,[a[0]||(a[0]=o(`span`,{class:`text-sm text-muted-foreground`},`经典黑白`,-1)),n(h,{value:t(m),size:120,"foreground-color":`#000000`,"background-color":`#ffffff`},null,8,[`value`])]),o(`div`,u,[a[1]||(a[1]=o(`span`,{class:`text-sm text-muted-foreground`},`品牌绿色`,-1)),n(h,{value:t(m),size:120,"foreground-color":`#059669`,"background-color":`#f0fdf4`},null,8,[`value`])]),o(`div`,d,[a[2]||(a[2]=o(`span`,{class:`text-sm text-muted-foreground`},`科技蓝`,-1)),n(h,{value:t(m),size:120,"foreground-color":`#2563eb`,"background-color":`#eff6ff`},null,8,[`value`])]),o(`div`,f,[a[3]||(a[3]=o(`span`,{class:`text-sm text-muted-foreground`},`活力橙`,-1)),n(h,{value:t(m),size:120,"foreground-color":`#ea580c`,"background-color":`#fff7ed`},null,8,[`value`])]),o(`div`,p,[a[4]||(a[4]=o(`span`,{class:`text-sm text-muted-foreground`},`暗色模式`,-1)),n(h,{value:t(m),size:120,"foreground-color":`#e5e5e5`,"background-color":`#171717`},null,8,[`value`])])])}}});export{m as t};
