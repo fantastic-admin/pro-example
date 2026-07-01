@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,D as t,E as n,Lt as r,Mt as i,dt as a,k as o,q as s}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{St as c,rt as l,xt as u}from"./src-BKeb4UGC.js";import{n as d}from"./vue-i18n.runtime-DkuCk1ax.js";import{t as f}from"./page-header-Efxjqd_k.js";import{g as p}from"./index-CzpIPJyc.js";var m=o({__name:`text`,setup(o){let{t:m}=d(),h=p();function g(){h.setText(h.text===`HOT`?`NEW`:`HOT`)}function _(){h.setText(``)}return(o,d)=>{let p=f,h=u,v=c,y=l;return s(),e(`div`,null,[t(p,{title:i(m)(`route.menuBadge.text`),description:i(m)(`description`)},null,8,[`title`,`description`]),t(y,{title:i(m)(`intro`)},{default:a(()=>[t(v,null,{default:a(()=>[t(h,{variant:`outline`,onClick:g},{default:a(()=>[n(r(i(m)(`change`)),1)]),_:1}),t(h,{variant:`outline`,onClick:_},{default:a(()=>[n(r(i(m)(`clear`)),1)]),_:1})]),_:1})]),_:1},8,[`title`])])}}});function h(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 实现动态设置`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`控制文字展示长度，避免导航标记覆盖导航标题`}},change:{t:0,b:{t:2,i:[{t:3}],s:`切换`}},clear:{t:0,b:{t:2,i:[{t:3}],s:`清空`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 實現動態設置`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`控制文字展示長度，避免導航標記覆蓋導航標題`}},change:{t:0,b:{t:2,i:[{t:3}],s:`切换`}},clear:{t:0,b:{t:2,i:[{t:3}],s:`清空`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`Dynamic setting based on Pinia`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`Control the length of text display to avoid navigation marks covering navigation titles`}},change:{t:0,b:{t:2,i:[{t:3}],s:`Switch`}},clear:{t:0,b:{t:2,i:[{t:3}],s:`Clear`}}}}})}typeof h==`function`&&h(m);var g=m;export{g as default};

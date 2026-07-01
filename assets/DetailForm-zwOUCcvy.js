@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,Ct as t,D as n,Q as r,Vt as i,W as a,at as o,dt as s,ft as c,k as l,q as u}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{V as d,ot as f}from"./src-BKeb4UGC.js";import{C as p,nt as m,rt as h}from"./index-CzpIPJyc.js";var g={list:e=>p.get(`job/list`,{params:e,fake:!0}),detail:e=>p.get(`job/detail`,{params:e,fake:!0}),create:e=>p.post(`job/create`,e,{fake:!0}),edit:e=>p.post(`job/edit`,e,{fake:!0}),delete:e=>p.post(`job/delete`,{id:e},{fake:!0})},_=l({__name:`index`,props:{id:{default:``},departmentId:{default:``}},setup(i,{expose:l}){let p=i,_=t(!1),v=o(`formRef`),y=t({id:p.id,department_id:p.departmentId,title:``}),b={title(e){return e.trim()?!0:`请输入职位名称`}};a(()=>{y.value.id!==``&&x()});function x(){_.value=!0,g.detail({department_id:y.value.department_id,id:y.value.id}).then(e=>{_.value=!1,y.value.title=e.data.title}).catch(()=>{_.value=!1})}async function S(){return(await v.value?.validate())?.valid?(y.value.id===``?(await g.create(y.value),d().success(`模拟新增成功`)):(await g.edit(y.value),d().success(`模拟编辑成功`)),!0):!1}return l({submit:S}),(t,i)=>{let a=f,o=h,l=m,d=r(`loading`);return c((u(),e(`div`,null,[n(l,{ref_key:`formRef`,ref:v,model:y.value,"validation-schema":b,"label-placement":`right`,"label-width":120},{default:s(()=>[n(o,{name:`title`,label:`职位`,required:``},{default:s(()=>[n(a,{placeholder:`请输入职位名称`,class:`w-full`})]),_:1})]),_:1},8,[`model`])])),[[d,_.value]])}}}),v=i({default:()=>y}),y=_;export{v as n,g as r,y as t};

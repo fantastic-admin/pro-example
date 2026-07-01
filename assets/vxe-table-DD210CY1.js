@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,Ct as t,D as n,Mt as r,Z as i,dt as a,k as o,q as s,st as c}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{nn as l,rt as u,xt as d}from"./src-BKeb4UGC.js";import{t as f}from"./settings-BarXTXTC.js";import{t as p}from"./page-header-Efxjqd_k.js";import{ot as m}from"./index-CzpIPJyc.js";import{t as h}from"./alert-DiHuRYB_.js";import{t as g}from"./command-CxoibEWz.js";var _=o({__name:`vxe-table`,setup(o){let _=f();c(()=>_.currentColorScheme,()=>{m.setTheme(_.currentColorScheme)},{immediate:!0});let v=t([{id:10001,name:`Test1`,role:`Develop`,sex:`Man`,age:28,address:`test abc`},{id:10002,name:`Test2`,role:`Test`,sex:`Women`,age:22,address:`Guangzhou`},{id:10003,name:`Test3`,role:`PM`,sex:`Man`,age:32,address:`Shanghai`},{id:10004,name:`Test4`,role:`Designer`,sex:`Women`,age:24,address:`Shanghai`}]);function y(e){window.open(e,`_blank`)}return(t,o)=>{let c=l,f=d,m=p,_=i(`vxe-column`),b=i(`vxe-table`,!0),x=u;return s(),e(`div`,null,[n(h),n(m,{title:`Vxe Table`},{description:a(()=>[n(g,{text:`pnpm add xe-utils vxe-table`})]),default:a(()=>[n(f,{variant:`outline`,size:`icon`,onClick:o[0]||(o[0]=e=>y(`https://github.com/x-extends/vxe-table`))},{default:a(()=>[n(c,{name:`i-simple-icons:github`})]),_:1})]),_:1}),n(x,null,{default:a(()=>[n(b,{data:r(v)},{default:a(()=>[n(_,{field:`name`,title:`Name`}),n(_,{field:`sex`,title:`Sex`}),n(_,{field:`age`,title:`Age`})]),_:1},8,[`data`])]),_:1})])}}});export{_ as default};

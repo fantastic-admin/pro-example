@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{B as e,C as t,Ct as n,D as r,Lt as i,Mt as a,Y as o,b as s,dt as c,k as l,m as u,q as d,z as f}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{rt as p}from"./src-BKeb4UGC.js";import{n as m}from"./vue-i18n.runtime-DkuCk1ax.js";import{t as h}from"./page-header-Efxjqd_k.js";import{y as g}from"./index-CzpIPJyc.js";var _=l({name:`FeatureExampleScroll`,__name:`scroll`,setup(l){let{t:_}=m(),v=n(0);return e(()=>{f(()=>{document.documentElement.scrollTop=v.value})}),g((e,t,n)=>{v.value=document.documentElement.scrollTop,n()}),(e,n)=>{let l=h,f=p;return d(),t(`div`,null,[r(l,{title:a(_)(`route.feature.scroll`),description:a(_)(`description`)},null,8,[`title`,`description`]),r(f,{"main-class":`space-y-2`},{default:c(()=>[(d(),t(u,null,o(100,e=>s(`div`,{key:e,class:`p-4 border flex-center`},i(e),1)),64))]),_:1})])}}});function v(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`当前路由需开启页面保活。你可以滚动当前页，然后跳转到其它页面，再回来时会自动定位到离开时的滚动位置`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`當前路由需開啟頁面保活。你可以滾動當前頁，然後跳轉到其他頁面，再回來時會自動定位到離開時的滾動位置`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`The current route needs to enable page keep-alive. You can scroll the current page, then jump to other pages, and when you come back, it will automatically locate to the scroll position when you left`}}}}})}typeof v==`function`&&v(_);var y=_;export{y as default};

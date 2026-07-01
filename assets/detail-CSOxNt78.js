@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,D as t,E as n,G as r,Mt as i,W as a,at as o,b as s,dt as c,k as l,q as u}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{nn as d,rt as f,xt as p}from"./src-BKeb4UGC.js";import{t as m}from"./fixed-bar-0M2rr6FY.js";import{t as h}from"./page-header-Efxjqd_k.js";import{b as g,l as _,x as v}from"./index-CzpIPJyc.js";import{t as y}from"./page-DMAFuW27.js";import{t as b}from"./DetailForm-CTm2fTBZ.js";var x={class:`max-w-4xl w-full`},S=l({name:`PagesExampleFormModeDetail`,__name:`detail`,setup(l){let S=g(),C=v(),w=y();a(()=>{w.setCustomTitle(S.params.id?`编辑`:`新增`)}),r(()=>{w.resetCustomTitle()});let T=o(`formRef`);function E(){T.value?.submit().then(e=>{e&&(_.emit(`get-data-list`),D())})}function D(){C.back({name:`standardModuleExampleList`})}return(r,a)=>{let o=d,l=p,g=h,_=m,v=f;return u(),e(`div`,null,[t(_,{position:`top`,class:`p-0`},{default:c(()=>[t(g,{title:i(S).params.id?`编辑标准模块`:`新增标准模块`,class:`mb-0 border-b-none`},{default:c(()=>[t(l,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:D},{default:c(()=>[t(o,{name:`i-ep:arrow-left`}),a[0]||(a[0]=n(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),t(v,null,{default:c(()=>[s(`div`,x,[t(b,{id:i(S).params.id,ref_key:`formRef`,ref:T},null,8,[`id`])])]),_:1}),t(_,{position:`bottom`,class:`flex-center gap-4`},{default:c(()=>[t(l,{onClick:E},{default:c(()=>[...a[1]||(a[1]=[n(` 提交 `,-1)])]),_:1}),t(l,{variant:`outline`,onClick:D},{default:c(()=>[...a[2]||(a[2]=[n(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{S as default};

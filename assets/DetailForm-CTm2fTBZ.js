@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,Ct as t,D as n,Mt as r,Q as i,Vt as a,W as o,at as s,dt as c,ft as l,k as u,q as d}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{V as f,ot as p}from"./src-BKeb4UGC.js";import{C as m,nt as h,rt as g}from"./index-CzpIPJyc.js";var _={list:e=>m.get(`standard_module/list`,{params:e,fake:!0}),detail:e=>m.get(`standard_module/detail`,{params:{id:e},fake:!0}),create:e=>m.post(`standard_module/create`,e,{fake:!0}),edit:e=>m.post(`standard_module/edit`,e,{fake:!0}),delete:e=>m.post(`standard_module/delete`,{id:e},{fake:!0})},v=u({__name:`index`,props:{id:{default:``}},setup(a,{expose:u}){let m=a,v=t(!1),y=s(`formRef`),b=t({id:m.id,title:``}),x={title(e){return e?!0:`请输入标题`}};o(()=>{b.value.id!==``&&S()});function S(){v.value=!0,_.detail(b.value.id).then(e=>{v.value=!1,b.value.title=e.data.title}).catch(()=>{v.value=!1})}async function C(){return(await y.value?.validate())?.valid?(b.value.id===``?(await _.create(b.value),f().success(`新增成功`)):(await _.edit(b.value),f().success(`编辑成功`)),!0):!1}return u({submit:C}),(t,a)=>{let o=p,s=g,u=h,f=i(`loading`);return l((d(),e(`div`,null,[n(u,{ref_key:`formRef`,ref:y,model:r(b),"validation-schema":x,"label-placement":`right`,"label-width":120},{default:c(()=>[n(s,{name:`title`,label:`标题`,required:``},{default:c(()=>[n(o,{placeholder:`请输入标题`,class:`w-full`})]),_:1})]),_:1},8,[`model`])])),[[f,r(v)]])}}}),y=a({default:()=>b}),b=v;export{y as n,_ as r,b as t};

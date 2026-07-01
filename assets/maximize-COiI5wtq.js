@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,D as t,E as n,Lt as r,Mt as i,dt as a,k as o,q as s}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{rt as c,xt as l}from"./src-BKeb4UGC.js";import{t as u}from"./settings-BarXTXTC.js";import{n as d}from"./vue-i18n.runtime-DkuCk1ax.js";import{t as f}from"./page-header-Efxjqd_k.js";import{t as p}from"./page-DMAFuW27.js";var m=o({__name:`maximize`,setup(o){let{t:m}=d(),h=u(),g=p();function _(){g.maximize(!h.mainPageMaximizeStatus)}return(o,u)=>{let d=f,p=l,g=c;return s(),e(`div`,null,[t(d,{title:i(m)(`route.feature.maximize`),description:i(m)(`description`)},null,8,[`title`,`description`]),t(g,null,{default:a(()=>[t(p,{onClick:_},{default:a(()=>[n(r(i(m)(`button`,[i(h).mainPageMaximizeStatus?i(m)(`exit`):i(m)(`enter`)])),1)]),_:1})]),_:1})])}}});function h(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`扩大可视范围和操作区域，能更专注于主页面上的操作`}},button:{t:0,b:{t:2,i:[{t:5,i:0},{t:3,v:`最大化`}]}},enter:{t:0,b:{t:2,i:[{t:3}],s:`进入`}},exit:{t:0,b:{t:2,i:[{t:3}],s:`退出`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`扩大視覺範圍和操作區域，能更專注於主頁面上的操作`}},button:{t:0,b:{t:2,i:[{t:5,i:0},{t:3,v:`最大化`}]}},enter:{t:0,b:{t:2,i:[{t:3}],s:`進入`}},exit:{t:0,b:{t:2,i:[{t:3}],s:`退出`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`Expand the visual range and operation area, allowing for more focused attention on the main page`}},button:{t:0,b:{t:2,i:[{t:5,i:0},{t:3,v:` Maximize`}]}},enter:{t:0,b:{t:2,i:[{t:3}],s:`Enter`}},exit:{t:0,b:{t:2,i:[{t:3}],s:`Exit`}}}}})}typeof h==`function`&&h(m);var g=m;export{g as default};

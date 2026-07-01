@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{C as e,It as t,Mt as n,Pt as r,X as i,dt as a,k as o,q as s,x as c,y as l}from"./vue.runtime.esm-bundler-BVTUj4HC.js";import{rn as u}from"./src-BKeb4UGC.js";import{T as d}from"./index-CzpIPJyc.js";var f=o({name:`BuiltInKbdGroup`,__name:`KbdGroup`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(t){let a=t;return(t,o)=>(s(),e(`kbd`,{"data-slot":`kbd-group`,class:r(n(u)(`inline-flex items-center gap-1`,a.class))},[i(t.$slots,`default`)],2))}}),p=o({name:`BuiltInTextShiny`,__name:`index`,props:{duration:{default:1.5},delay:{default:1.5},class:{type:[Boolean,null,String,Object,Array]}},setup(e){let o=e,f=l(()=>({WebkitTextFillColor:`transparent`,backgroundColor:`currentColor`,backgroundImage:`linear-gradient(to right, currentColor 0%, var(--shimmer-contrast) 40%, var(--shimmer-contrast) 60%, currentColor 100%)`,WebkitBackgroundClip:`text`,backgroundClip:`text`,backgroundRepeat:`no-repeat`,backgroundSize:`50% 200%`})),p=l(()=>({duration:o.duration,delay:o.delay,repeat:1/0,repeatDelay:1.5,ease:`linear`}));return(e,l)=>(s(),c(n(d),{as:`span`,class:r(n(u)(`inline-block [--shimmer-contrast:rgba(255,255,255,0.6)] dark:[--shimmer-contrast:rgba(0,0,0,0.5)]`,o.class)),style:t(f.value),initial:{backgroundPositionX:`250%`},animate:{backgroundPositionX:[`-100%`,`250%`]},transition:p.value},{default:a(()=>[i(e.$slots,`default`)]),_:3},8,[`class`,`style`,`transition`]))}});export{f as n,p as t};
