@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{B as e}from"./reactivity.esm-bundler-DQLEWij_.js";import{D as t,b as n,k as r,mt as i,qt as a}from"./runtime-core.esm-bundler-B5ds1qB8.js";import{bt as o,ln as s,nt as c,xt as l}from"./src-XafWzjth.js";import{n as u}from"./vue-i18n.runtime-QoH7TMem.js";import{t as d}from"./page-header-DeO2joBq.js";import{t as f}from"./menuBadge-BqvXhgmK.js";var p=r({__name:`number`,setup(r){let{t:p}=u(),m=f();function h(){m.setNumber(m.number+1)}function g(){m.setNumber(m.number-1)}return(r,u)=>{let f=d,_=s,v=o,y=l,b=c;return i(),n(`div`,null,[t(f,{title:e(p)(`route.menuBadge.number`),description:e(p)(`description`)},null,8,[`title`,`description`]),t(b,{title:e(p)(`intro`)},{default:a(()=>[t(y,null,{default:a(()=>[t(v,{variant:`outline`,disabled:e(m).number>=10,onClick:h},{default:a(()=>[t(_,{name:`i-ep:plus`})]),_:1},8,[`disabled`]),t(v,{variant:`outline`,disabled:e(m).number<=0,onClick:g},{default:a(()=>[t(_,{name:`i-ep:minus`})]),_:1},8,[`disabled`])]),_:1})]),_:1},8,[`title`])])}}});function m(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 实现动态设置`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`控制数字展示长度，避免导航标记覆盖导航标题，为 0 时则隐藏`}}},"zh-tw":{description:{t:0,b:{t:2,i:[{t:3}],s:`基于 Pinia 實現動態設置`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`控制數字展示長度，避免導航標記覆蓋導航標題，為 0 時則隱藏`}}},en:{description:{t:0,b:{t:2,i:[{t:3}],s:`Dynamic setting based on Pinia`}},intro:{t:0,b:{t:2,i:[{t:3}],s:`Control the number of digits displayed to avoid navigation marks covering navigation titles, and hide when it is 0`}}}}})}typeof m==`function`&&m(p);var h=p;export{h as default};

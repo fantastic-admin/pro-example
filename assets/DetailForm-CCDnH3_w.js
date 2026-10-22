@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{r as e}from"./rolldown-runtime-B0Z9INg1.js";import{C as t}from"./reactivity.esm-bundler-DQLEWij_.js";import{Ct as n,D as r,Rt as i,Yt as a,b as o,ct as s,k as c,mt as l,qt as u}from"./runtime-core.esm-bundler-B5ds1qB8.js";import{at as d}from"./src-XafWzjth.js";import{n as f,t as p}from"./form-DRTgdiRs.js";import{t as m}from"./useToast-DUpR_HFG.js";import{t as h}from"./department-CzNxpn_y.js";var g=c({__name:`index`,props:{id:{default:``}},setup(e,{expose:c}){let g=e,_=t(!1),v=i(`formRef`),y=t({id:g.id,title:``}),b={title(e){return e.trim()?!0:`请输入部门名称`}};s(()=>{y.value.id!==``&&x()});function x(){_.value=!0,h.detail(y.value.id).then(e=>{_.value=!1,y.value.title=e.data.title}).catch(()=>{_.value=!1})}async function S(){return(await v.value?.validate())?.valid?(y.value.id===``?(await h.create(y.value),m().success(`模拟新增成功`)):(await h.edit(y.value),m().success(`模拟编辑成功`)),!0):!1}return c({submit:S}),(e,t)=>{let i=d,s=f,c=p,m=n(`loading`);return a((l(),o(`div`,null,[r(c,{ref_key:`formRef`,ref:v,model:y.value,"validation-schema":b,"label-placement":`right`,"label-width":120},{default:u(()=>[r(s,{name:`title`,label:`部门`,required:``},{default:u(()=>[r(i,{placeholder:`请输入部门名称`,class:`w-full`})]),_:1})]),_:1},8,[`model`])])),[[m,_.value]])}}}),_=e({default:()=>v}),v=g;export{_ as n,v as t};

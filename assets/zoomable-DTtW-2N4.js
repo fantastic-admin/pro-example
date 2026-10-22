@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{B as e,C as t,m as n,wt as r}from"./reactivity.esm-bundler-DQLEWij_.js";import{Ct as i,D as a,E as o,Yt as s,_ as c,b as l,k as u,mt as d,qt as f}from"./runtime-core.esm-bundler-B5ds1qB8.js";import{bt as p,it as m,nt as h}from"./src-XafWzjth.js";import{n as g}from"./vue-i18n.runtime-QoH7TMem.js";import{t as _}from"./page-header-DeO2joBq.js";var v={class:`h-20 w-20 block`,src:`https://fantastic-admin.hurui.me/logo.svg`},y={class:`h-20 w-20 block`,src:`https://fantastic-admin.hurui.me/logo.svg`},b=u({__name:`zoomable`,setup(u){let{t:b}=g(),x=t(!1);return(t,u)=>{let g=_,S=h,C=p,w=m,T=i(`zoomable`);return d(),l(`div`,null,[a(g,{title:e(b)(`route.feature.zoomable`)},null,8,[`title`]),a(S,null,{default:f(()=>[s(c(`img`,v,null,512),[[T]])]),_:1}),a(S,null,{default:f(()=>[a(C,{onClick:u[0]||(u[0]=e=>x.value=!0)},{default:f(()=>[o(r(e(b)(`modal`)),1)]),_:1}),a(w,{modelValue:e(x),"onUpdate:modelValue":u[1]||(u[1]=e=>n(x)?x.value=e:null),header:!1,footer:!1,"content-class":`min-h-auto`},{default:f(()=>[s(c(`img`,y,null,512),[[T]])]),_:1},8,[`modelValue`])]),_:1})])}}});function x(e){let t=e;t.__i18n=t.__i18n||[],t.__i18n.push({locale:``,resource:{"zh-cn":{modal:{t:0,b:{t:2,i:[{t:3}],s:`在模态框中`}}},"zh-tw":{modal:{t:0,b:{t:2,i:[{t:3}],s:`在模態框中`}}},en:{modal:{t:0,b:{t:2,i:[{t:3}],s:`In modal`}}}}})}typeof x==`function`&&x(b);var S=b;export{S as default};

@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{r as e}from"./rolldown-runtime-B0Z9INg1.js";import{B as t,C as n}from"./reactivity.esm-bundler-DQLEWij_.js";import{Ct as r,D as i,Rt as a,Yt as o,b as s,ct as c,k as l,mt as u,qt as d}from"./runtime-core.esm-bundler-B5ds1qB8.js";import{at as f}from"./src-XafWzjth.js";import{n as p,t as m}from"./form-DRTgdiRs.js";import{t as h}from"./useToast-DUpR_HFG.js";import{g}from"./auth-9jimfUaX.js";var _={list:e=>g.get(`standard_module/list`,{params:e,fake:!0}),detail:e=>g.get(`standard_module/detail`,{params:{id:e},fake:!0}),create:e=>g.post(`standard_module/create`,e,{fake:!0}),edit:e=>g.post(`standard_module/edit`,e,{fake:!0}),delete:e=>g.post(`standard_module/delete`,{id:e},{fake:!0})},v=l({__name:`index`,props:{id:{default:``}},setup(e,{expose:l}){let g=e,v=n(!1),y=a(`formRef`),b=n({id:g.id,title:``}),x={title(e){return e?!0:`请输入标题`}};c(()=>{b.value.id!==``&&S()});function S(){v.value=!0,_.detail(b.value.id).then(e=>{v.value=!1,b.value.title=e.data.title}).catch(()=>{v.value=!1})}async function C(){return(await y.value?.validate())?.valid?(b.value.id===``?(await _.create(b.value),h().success(`新增成功`)):(await _.edit(b.value),h().success(`编辑成功`)),!0):!1}return l({submit:C}),(e,n)=>{let a=f,c=p,l=m,h=r(`loading`);return o((u(),s(`div`,null,[i(l,{ref_key:`formRef`,ref:y,model:t(b),"validation-schema":x,"label-placement":`right`,"label-width":120},{default:d(()=>[i(c,{name:`title`,label:`标题`,required:``},{default:d(()=>[i(a,{placeholder:`请输入标题`,class:`w-full`})]),_:1})]),_:1},8,[`model`])])),[[h,t(v)]])}}}),y=e({default:()=>b}),b=v;export{y as n,_ as r,b as t};

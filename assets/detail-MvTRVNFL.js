@@ -1,0 +1,8 @@
+
+/**
+ * 由 Fantastic-admin 提供技术支持
+ * Powered by Fantastic-admin
+ * https://fantastic-admin.hurui.me
+ */
+  
+import{B as e}from"./reactivity.esm-bundler-DQLEWij_.js";import{D as t,E as n,Rt as r,_ as i,b as a,k as o,mt as s,qt as c}from"./runtime-core.esm-bundler-B5ds1qB8.js";import{bt as l,ln as u,nt as d}from"./src-XafWzjth.js";import{t as f}from"./fixed-bar-CoJAAjLN.js";import{t as p}from"./page-header-DeO2joBq.js";import{r as m}from"./auth-9jimfUaX.js";import{g as h,h as g}from"./useApi-BPuI6ZR9-C1R0DeuL.js";import{t as _}from"./DetailForm-NH8KzmVV.js";var v={class:`max-w-4xl w-full`},y=o({name:`PagesExampleManagerDetail`,__name:`detail`,setup(o){let y=g(),b=h(),x=r(`formRef`);function S(){x.value?.submit().then(e=>{e&&(m.emit(`get-data-list`),C())})}function C(){b.back({name:`pagesExampleGeneralManagerList`})}return(r,o)=>{let m=u,h=l,g=p,b=f,w=d;return s(),a(`div`,null,[t(b,{position:`top`,class:`p-0`},{default:c(()=>[t(g,{title:e(y).name===`routerName`?`新增管理员`:`编辑管理员`,class:`mb-0 border-b-none`},{default:c(()=>[t(h,{variant:`outline`,size:`sm`,class:`rounded-full`,onClick:C},{default:c(()=>[t(m,{name:`i-ep:arrow-left`}),o[0]||(o[0]=n(` 返回 `,-1))]),_:1})]),_:1},8,[`title`])]),_:1}),t(w,null,{default:c(()=>[i(`div`,v,[t(_,{id:e(y).params.id,ref_key:`formRef`,ref:x},null,8,[`id`])])]),_:1}),t(b,{position:`bottom`,class:`flex-center gap-4`},{default:c(()=>[t(h,{onClick:S},{default:c(()=>[...o[1]||(o[1]=[n(` 提交 `,-1)])]),_:1}),t(h,{variant:`outline`,onClick:C},{default:c(()=>[...o[2]||(o[2]=[n(` 取消 `,-1)])]),_:1})]),_:1})])}}});export{y as default};
